@@ -1,5 +1,6 @@
 local energyPrismDeath = CreatureEvent("EnergyPrismDeath")
-function energyPrismDeath.onDeath(creature)
+
+function energyPrismDeath.onKill(creature, target)
 	stopEvent(Storage.ForgottenKnowledge.LloydEvent)
 	local tile = Tile(Position(32799, 32826, 14))
 	if not tile then

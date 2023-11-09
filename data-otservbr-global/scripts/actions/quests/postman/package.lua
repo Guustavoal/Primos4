@@ -10,5 +10,5 @@ function postmanPackage.onUse(player, item, fromPosition, target, toPosition, is
 	return true
 end
 
-postmanPackage:id(3217)
+postmanPackage:id(3212)
 postmanPackage:register()

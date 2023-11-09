@@ -1,6 +1,11 @@
 local config = {
-	boss = { name = "Magma Bubble" },
-	encounter = "Magma Bubble",
+
+	boss = {
+		name = "Magma Bubble",
+		position = Position(33654, 32909, 15),
+	},
+
+	--encounter = "Magma Bubble",
 	requiredLevel = 500,
 
 	playerPositions = {
@@ -14,6 +19,8 @@ local config = {
 		from = Position(33630, 32887, 15),
 		to = Position(33672, 32921, 15),
 	},
+
+
 	exit = Position(33659, 32897, 14),
 }
 

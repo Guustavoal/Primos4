@@ -17,9 +17,14 @@ local bosses = {
 	},
 }
 
-local bossesKill = CreatureEvent("WrathOfTheEmperorBossDeat")
-function bossesKill.onDeath(creature)
-	local bossConfig = bosses[creature:getName():lower()]
+local bossesKill = CreatureEvent("BossesKill")
+function bossesKill.onKill(creature, target)
+	local targetMonster = target:getMonster()
+	if not targetMonster then
+		return true
+	end
+
+	local bossConfig = bosses[targetMonster:getName():lower()]
 	if not bossConfig then
 		return true
 	end

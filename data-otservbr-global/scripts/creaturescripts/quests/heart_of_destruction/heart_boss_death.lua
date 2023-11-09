@@ -108,6 +108,10 @@ local bosses = {
 		toPos = { x = 32246, y = 31297, z = 14 },
 		storage = 14332,
 	},
+
+	timeToDefeat = 10,
+	timeAfterKill = 10,
+
 }
 
 local heartBossDeath = CreatureEvent("HeartBossDeath")

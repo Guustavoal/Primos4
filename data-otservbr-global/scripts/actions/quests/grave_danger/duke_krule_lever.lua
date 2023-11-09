@@ -17,6 +17,7 @@ local config = {
 		to = Position(33464, 31481, 13),
 	},
 	exit = Position(32347, 32167, 12),
+	storage = Storage.Quest.U12_20.GraveDanger.Bosses.DukeKruleTimer,
 }
 
 local lever = BossLever(config)

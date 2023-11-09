@@ -4,7 +4,7 @@ local config = {
 		position = Position(33481, 32334, 13),
 	},
 
-	timeToDefeat = 30 * 60,
+	timeToDefeat = 15 * 60,
 	playerPositions = {
 		{ pos = Position(33456, 32356, 13), teleport = Position(33482, 32339, 13), effect = CONST_ME_TELEPORT },
 		{ pos = Position(33457, 32356, 13), teleport = Position(33482, 32339, 13), effect = CONST_ME_TELEPORT },
@@ -20,6 +20,12 @@ local config = {
 	storage = Storage.FerumbrasAscension.RagiazTimer,
 }
 
+local lever = BossLever(config)
+lever:uid(1023)
+lever:register()
+
+
+--[[
 local deathDragons = {
 	Position(33476, 32331, 13),
 	Position(33476, 32340, 13),
@@ -38,5 +44,10 @@ function ferumbrasAscendantRagiaz.onUse(player, item, fromPosition, target, toPo
 	return false
 end
 
+
+local lever = BossLever(config)
 ferumbrasAscendantRagiaz:uid(1023)
 ferumbrasAscendantRagiaz:register()
+]]
+
+

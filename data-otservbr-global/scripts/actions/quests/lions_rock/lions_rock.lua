@@ -5,7 +5,7 @@ local rewards = {
 	"giant shimmering pearl",
 	"gold ingot",
 	"green gem",
-	3039, -- red gem
+	"red gem",
 	"lion's heart",
 	"yellow gem",
 }

@@ -22,6 +22,7 @@ local config = {
 		to = Position(33453, 31555, 13),
 	},
 	exit = Position(32172, 31918, 8),
+	storage = Storage.Quest.U12_20.GraveDanger.Bosses.KingZelosTimer,
 }
 
 local lever = BossLever(config)

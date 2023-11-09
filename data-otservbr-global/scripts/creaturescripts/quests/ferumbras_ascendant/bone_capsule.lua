@@ -1,8 +1,9 @@
 local boneCapsule = CreatureEvent("BoneCapsule")
 function boneCapsule.onDeath(creature, corpse, lasthitkiller, mostdamagekiller, lasthitunjustified, mostdamageunjustified)
-	local position = creature:getPosition()
+	local targetMonster = creature:getMonster()
+	local position = targetMonster:getPosition()
 	position:sendMagicEffect(CONST_ME_POFF)
-	if creature:getName():lower() ~= "bone capsule" then
+	if not targetMonster or targetMonster:getName():lower() ~= "bone capsule" then
 		return true
 	end
 

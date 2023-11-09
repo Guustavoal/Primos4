@@ -28,11 +28,6 @@ function exerciseTraining.onUse(player, item, fromPosition, target, toPosition, 
 			return true
 		end
 
-		if not playerPos:isProtectionZoneTile() then
-			player:sendTextMessage(MESSAGE_FAILURE, "You need to be in a protection zone.")
-			return true
-		end
-
 		local playerHouse = player:getTile():getHouse()
 		local targetPos = target:getPosition()
 		local targetHouse = Tile(targetPos):getHouse()

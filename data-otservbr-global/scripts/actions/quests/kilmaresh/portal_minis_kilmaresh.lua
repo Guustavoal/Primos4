@@ -12,6 +12,7 @@ local config = {
 			to = Position(33876, 31555, 8),
 		},
 		exitPosition = Position(33886, 31478, 6),
+		storage = Storage.Kilmaresh.NeferiTheSpyTimer,
 	},
 	[2] = {
 		teleportPosition = { x = 33883, y = 31467, z = 9 },
@@ -26,6 +27,7 @@ local config = {
 			to = Position(33837, 31501, 9),
 		},
 		exitPosition = Position(33883, 31468, 9),
+		storage = Storage.Kilmaresh.SisterHetaiTimer,
 	},
 	[3] = {
 		teleportPosition = { x = 33819, y = 31773, z = 10 },
@@ -40,6 +42,7 @@ local config = {
 			to = Position(33855, 31791, 10),
 		},
 		exitPosition = Position(33819, 31774, 10),
+		storage = Storage.Kilmaresh.AmenefTimer,
 	},
 	[4] = {
 		teleportPosition = { x = 33871, y = 31546, z = 8 },
@@ -84,7 +87,7 @@ function teleportBoss.onStepIn(creature, item, position, fromPosition)
 				creature:sendTextMessage(MESSAGE_EVENT_ADVANCE, "All the players need to be level " .. value.requiredLevel .. " or higher.")
 				return true
 			end
-			if not creature:canFightBoss(value.bossName) then
+			if creature:getStorageValue(value.storage) > os.time() then
 				creature:teleportTo(fromPosition, true)
 				creature:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
 				creature:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have to wait " .. value.timeToFightAgain .. " hours to face " .. value.bossName .. " again!")
@@ -97,7 +100,7 @@ function teleportBoss.onStepIn(creature, item, position, fromPosition)
 			end
 			creature:teleportTo(value.destination)
 			creature:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-			creature:setBossCooldown(value.bossName, os.time() + value.timeToFightAgain * 3600)
+			creature:setStorageValue(value.storage, os.time() + value.timeToFightAgain * 3600)
 			addEvent(function()
 				spec:clearCreaturesCache()
 				spec:setOnlyPlayer(true)

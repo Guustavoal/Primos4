@@ -4,8 +4,7 @@ local UniqueTable = {
 		count = 1,
 	},
 	[14002] = {
-		-- gold nugget,
-		itemId = 3040,
+		name = "gold nugget",
 		count = 2,
 	},
 	[14003] = {

@@ -3,25 +3,22 @@ local monster = {
 	["priestess of the wild sun"] = Storage.Kilmaresh.Thirteen.Fafnar,
 }
 
-local fafnar = CreatureEvent("FafnarMissionsDeath")
+local fafnar = CreatureEvent("FafnarKill")
 
-function fafnar.onDeath(creature, _corpse, _lastHitKiller, mostDamageKiller)
-	local storage = monster[creature:getName():lower()]
-	if not storage then
+function fafnar.onKill(creature, target)
+	local storage = monster[target:getName():lower()]
+	if target:isPlayer() or target:getMaster() or not storage then
 		return false
 	end
 
-	onDeathForParty(creature, mostDamageKiller, function(creature, player)
-		local kills = player:getStorageValue(storage)
-		if kills == 300 and player:getStorageValue(storage) == 1 then
-			player:say("You slayed " .. creature:getName() .. ".", TALKTYPE_MONSTER_SAY)
-		else
-			kills = kills + 1
-			player:say("You have slayed " .. creature:getName() .. " " .. kills .. " times!", TALKTYPE_MONSTER_SAY)
-			player:setStorageValue(storage, kills)
-		end
-	end)
-
+	local kills = creature:getStorageValue(storage)
+	if kills == 300 and creature:getStorageValue(storage) == 1 then
+		creature:say("You slayed " .. target:getName() .. ".", TALKTYPE_MONSTER_SAY)
+	else
+		kills = kills + 1
+		creature:say("You have slayed " .. target:getName() .. " " .. kills .. " times!", TALKTYPE_MONSTER_SAY)
+		creature:setStorageValue(storage, kills)
+	end
 	return true
 end
 

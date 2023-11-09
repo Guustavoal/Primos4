@@ -8,7 +8,6 @@ function onGetFormulaValues(player, level, maglevel)
 	local max = (level / 5) + (maglevel * 2) + 12
 	return -min, -max
 end
-
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
 local spell = Spell("instant")
@@ -26,8 +25,8 @@ spell:impactSound(SOUND_EFFECT_TYPE_SPELL_ICE_WAVE)
 spell:level(18)
 spell:mana(25)
 spell:needDirection(true)
-spell:cooldown(4 * 1000)
-spell:groupCooldown(2 * 1000)
+spell:cooldown(2 * 1000)
+spell:groupCooldown(1 * 1000)
 spell:needLearn(false)
 spell:vocation("druid;true", "elder druid;true")
 spell:register()

@@ -6,7 +6,7 @@ local bpItems = {
 	{ name = "gold token", count = 3 },
 	{ name = "blue gem", count = 1 },
 	{ name = "yellow gem", count = 1 },
-	{ id = 3039, count = 1 }, -- red gem
+	{ name = "red gem", count = 1 },
 	{ name = "demon horn", count = 2 },
 	{ name = "slime heart", count = 2 },
 	{ name = "energy vein", count = 2 },
@@ -46,11 +46,7 @@ function finalReward.onUse(player, item, fromPosition, target, toPosition, isHot
 		local bp = Game.createItem("Backpack", 1)
 		if bp then
 			for i = 1, #bpItems do
-				if bpItems[i].id then
-					bp:addItem(bpItems[i].id, count)
-				else
-					bp:addItem(bpItems[i].name, count)
-				end
+				bp:addItem(bpItems[i].name, count)
 			end
 			bp:moveTo(player)
 		end

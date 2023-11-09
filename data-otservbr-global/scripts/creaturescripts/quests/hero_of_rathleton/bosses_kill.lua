@@ -45,13 +45,17 @@ local function revertTeleport(position, itemId, transformId, destination)
 	end
 end
 
-local rathletonBossKill = CreatureEvent("RathletonBossDeath")
-function rathletonBossKill.onDeath(creature)
-	local bossConfig = bosses[creature:getName():lower()]
+local rathletonBossKill = CreatureEvent("RathletonBossKill")
+function rathletonBossKill.onKill(creature, target)
+	local targetMonster = target:getMonster()
+	if not target or not targetMonster or targetMonster:getMaster() then
+		return true
+	end
+	local bossConfig = bosses[targetMonster:getName():lower()]
 	if not bossConfig then
 		return true
 	end
-	if creature:getName():lower() == "empowered glooth horror" then
+	if targetMonster:getName():lower() == "empowered glooth horror" then
 		if checkHorror() == true then
 			return true
 		end
@@ -67,7 +71,7 @@ function rathletonBossKill.onDeath(creature)
 	local newPos = bossConfig.nextpos
 	if teleport then
 		teleport:transform(22761)
-		creature:getPosition():sendMagicEffect(CONST_ME_THUNDER)
+		targetMonster:getPosition():sendMagicEffect(CONST_ME_THUNDER)
 		teleport:setDestination(newPos)
 		addEvent(revertTeleport, 2 * 60 * 1000, teleportPos, 22761, 1949, oldPos)
 		Game.setStorageValue(bossConfig.globaltimer, 0)

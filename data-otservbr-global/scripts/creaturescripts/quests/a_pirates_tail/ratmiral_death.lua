@@ -1,7 +1,7 @@
-local ratmiralBlackwhiskersDeath = CreatureEvent("RatmiralBlackwhiskersDeath")
+local event = CreatureEvent("RatmiralBlackwhiskersDeath")
 local outfits = { 1371, 1372 }
 
-function ratmiralBlackwhiskersDeath.onDeath(creature, corpse, killer, mostDamage, unjustified, mostDamage_unjustified)
+function event.onDeath(creature, corpse, killer, mostDamage, unjustified, mostDamage_unjustified)
 	if not creature or not creature:getMonster() then
 		return
 	end
@@ -17,4 +17,4 @@ function ratmiralBlackwhiskersDeath.onDeath(creature, corpse, killer, mostDamage
 	end
 end
 
-ratmiralBlackwhiskersDeath:register()
+event:register()

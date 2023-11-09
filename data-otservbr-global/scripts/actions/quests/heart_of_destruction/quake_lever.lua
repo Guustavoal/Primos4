@@ -95,7 +95,7 @@ function heartDestructionQuake.onUse(player, item, fromPosition, itemEx, toPosit
 						players = storePlayers[i]
 						config.playerPositions[i]:sendMagicEffect(CONST_ME_POFF)
 						players:teleportTo(config.newPos)
-						players:setBossCooldown("Realityquake", os.time() + configManager.getNumber(configKeys.BOSS_DEFAULT_TIME_TO_FIGHT_AGAIN))
+						players:setStorageValue(14325, os.time() + configManager.getNumber(configKeys.BOSS_DEFAULT_TIME_TO_FIGHT_AGAIN))
 					end
 					Position(config.newPos):sendMagicEffect(11)
 
@@ -105,14 +105,15 @@ function heartDestructionQuake.onUse(player, item, fromPosition, itemEx, toPosit
 					Game.createMonster("Spark of Destruction", { x = 32205, y = 31251, z = 14 }, false, true)
 					Game.createMonster("Spark of Destruction", { x = 32210, y = 31251, z = 14 }, false, true)
 					Game.createMonster("Spark of Destruction", { x = 32212, y = 31246, z = 14 }, false, true)
-					Game.createMonster("Foreshock", { x = 32208, y = 31248, z = 14 }, false, true)
+					Game.createMonster("Realityquake", { x = 32208, y = 31248, z = 14 }, false, true)
 
-					foreshockHealth = 105000
-					aftershockHealth = 105000
-					foreshockStage = 0
-					aftershockStage = 0
+					--foreshockHealth = 105000
+					--aftershockHealth = 105000
+					--realityQuakeStage = 0
+					--foreshockStage = 0
+					--aftershockStage = 0
 
-					local vortex = Tile({ x = 32199, y = 31248, z = 14 }):getItemById(23482)
+					local vortex = Tile({ x = 32199, y = 31250, z = 14 }):getItemById(23482)
 					if vortex then
 						vortex:transform(23483)
 						vortex:setActionId(14345)

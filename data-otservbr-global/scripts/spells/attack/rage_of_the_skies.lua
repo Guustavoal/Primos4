@@ -5,7 +5,7 @@ combat:setArea(createCombatArea(AREA_CIRCLE6X6))
 
 function onGetFormulaValues(player, level, maglevel)
 	local min = (level / 5) + (maglevel * 7)
-	local max = (level / 5) + (maglevel * 14)
+	local max = (level / 7) + (maglevel * 20)
 	return -min, -max
 end
 
@@ -26,8 +26,8 @@ spell:level(55)
 spell:mana(600)
 spell:isSelfTarget(true)
 spell:isPremium(true)
-spell:cooldown(40 * 1000)
-spell:groupCooldown(4 * 1000, 40 * 1000)
+spell:cooldown(6 * 1000)
+spell:groupCooldown(2 * 1000, 4 * 1000)
 spell:needLearn(false)
 spell:vocation("sorcerer;true", "master sorcerer;true")
 spell:register()

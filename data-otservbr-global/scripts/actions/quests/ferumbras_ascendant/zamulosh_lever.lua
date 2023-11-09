@@ -4,7 +4,7 @@ local config = {
 		position = Position(33643, 32756, 11),
 	},
 
-	timeToDefeat = 30 * 60,
+	timeToDefeat = 15 * 60,
 	playerPositions = {
 		{ pos = Position(33680, 32741, 11), teleport = Position(33644, 32760, 11), effect = CONST_ME_TELEPORT },
 		{ pos = Position(33680, 32742, 11), teleport = Position(33644, 32760, 11), effect = CONST_ME_TELEPORT },
@@ -20,6 +20,11 @@ local config = {
 	storage = Storage.FerumbrasAscension.ZamuloshTimer,
 }
 
+local lever = BossLever(config)
+lever:uid(1026)
+lever:register()
+
+--[[
 local zamuloshSummons = {
 	Position(33642, 32756, 11),
 	Position(33642, 32756, 11),
@@ -42,3 +47,4 @@ end
 
 ferumbrasAscendantZamulosh:uid(1026)
 ferumbrasAscendantZamulosh:register()
+]]
