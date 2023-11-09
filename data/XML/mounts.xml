@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mounts>
+    <!-- Olds Mounts -->
 	<mount id="1" clientid="368" name="Widow Queen" speed="10" premium="yes" type="quest" />
 	<mount id="2" clientid="369" name="Racing Bird" speed="10" premium="yes" type="quest" />
 	<mount id="3" clientid="370" name="War Bear" speed="10" premium="yes" type="quest" />
@@ -51,7 +52,7 @@
 	<mount id="49" clientid="628" name="Jade Pincer" speed="10" premium="no" type="store" />
 	<mount id="50" clientid="629" name="Nethersteed" speed="10" premium="no" type="store" />
 	<mount id="51" clientid="630" name="Tempest" speed="10" premium="no" type="store" />
-	<mount id="52" clientid="631" name="Winter King" speed="10" premium="no" type="store" />
+	<mount id="52" clientid="631" name="Winter King" speed="10" premium="no" />
 	<mount id="53" clientid="644" name="Doombringer" speed="10" premium="no" type="store" />
 	<mount id="54" clientid="647" name="Woodland Prince" speed="10" premium="no" type="store" />
 	<mount id="55" clientid="648" name="Hailstorm Fury" speed="10" premium="no" type="store" />
@@ -88,7 +89,7 @@
 	<mount id="86" clientid="763" name="Razorcreep" speed="10" premium="no" type="store" />
 	<mount id="87" clientid="848" name="Rift Runner" speed="10" premium="yes" type="quest" />
 	<mount id="88" clientid="849" name="Nightdweller" speed="10" premium="no" type="store" />
-	<mount id="89" clientid="850" name="Frostflare" speed="10" premium="no" type="store" />
+	<mount id="89" clientid="850" name="Frostflare" speed="10" premium="no" />
 	<mount id="90" clientid="851" name="Cinderhoof" speed="10" premium="no" type="store" />
 	<mount id="91" clientid="868" name="Mouldpincer" speed="10" premium="no" type="store" />
 	<mount id="92" clientid="869" name="Bloodcurl" speed="10" premium="no" type="store" />
@@ -106,7 +107,7 @@
 	<mount id="104" clientid="906" name="Dreadhare" speed="10" premium="no" type="store" />
 	<mount id="105" clientid="907" name="Wolpertinger" speed="10" premium="no" type="store" />
 	<mount id="106" clientid="937" name="Stone Rhino" speed="10" premium="yes" type="quest" />
-	<mount id="107" clientid="950" name="Gold Sphinx" speed="10" premium="no" type="store" />
+	<mount id="107" clientid="950" name="Gold Sphinx" speed="10" premium="no" />
 	<mount id="108" clientid="951" name="Emerald Sphinx" speed="10" premium="no" type="store" />
 	<mount id="109" clientid="952" name="Shadow Sphinx" speed="10" premium="no" type="store" />
 	<mount id="110" clientid="959" name="Jungle Saurian" speed="10" premium="no" type="store" />
@@ -180,41 +181,44 @@
 	<mount id="178" clientid="1381" name="Festive Mammoth" speed="10" premium="no" type="store" />
 	<mount id="179" clientid="1389" name="Void Watcher" speed="10" premium="no" type="store" />
 	<mount id="180" clientid="1390" name="Rune Watcher" speed="10" premium="no" type="store" />
-	<mount id="181" clientid="1391" name="Rift Watcher" speed="10" premium="no" type="store" />
-	<mount id="182" clientid="1417" name="Phant" speed="10" premium="yes" type="arena" />
-	<mount id="183" clientid="1430" name="Shellodon" speed="10" premium="yes" type="quest" />
-	<mount id="184" clientid="1431" name="Singeing Steed" speed="10" premium="yes" type="quest" />
-	<mount id="185" clientid="1439" name="Hyacinth" speed="10" premium="no" type="store" />
-	<mount id="186" clientid="1440" name="Peony" speed="10" premium="no" type="store" />
-	<mount id="187" clientid="1441" name="Dandelion" speed="10" premium="no" type="store" />
-	<mount id="188" clientid="1446" name="Rustwurm" speed="10" premium="no" type="store" />
-	<mount id="189" clientid="1447" name="Bogwurm" speed="10" premium="no" type="store" />
-	<mount id="190" clientid="1448" name="Gloomwurm" speed="10" premium="no" type="store" />
-	<mount id="191" clientid="1453" name="Emerald Raven" speed="10" premium="no" type="store" />
-	<mount id="192" clientid="1454" name="Mystic Raven" speed="10" premium="no" type="store" />
-	<mount id="193" clientid="1455" name="Radiant Raven" speed="10" premium="no" type="store" />
-	<mount id="194" clientid="1459" name="Gloothomotive" speed="10" premium="yes" type="store" />
-	<mount id="195" clientid="1491" name="Topaz Shrine" speed="10" premium="no" type="store" />
-	<mount id="196" clientid="1492" name="Jade Shrine" speed="10" premium="no" type="store" />
-	<mount id="197" clientid="1493" name="Obsidian Shrine" speed="10" premium="no" type="store" />
-	<mount id="198" clientid="1526" name="Poppy ibex" speed="10" premium="no" type="store" />
-	<mount id="199" clientid="1527" name="Mint ibex" speed="10" premium="no" type="store" />
-	<mount id="200" clientid="1528" name="Cinnamon ibex" speed="10" premium="no" type="store" />
-	<mount id="201" clientid="1536" name="Giant Beaver" speed="10" premium="yes" type="quest" />
-	<mount id="202" clientid="1577" name="Noxious Ripptor" speed="10" premium="yes" type="quest" />
-	<mount id="203" clientid="1578" name="Parade Horse" speed="10" premium="no" type="store" />
-	<mount id="204" clientid="1579" name="Jousting Horse" speed="10" premium="no" type="store" />
-	<mount id="205" clientid="1580" name="Tourney Horse" speed="10" premium="no" type="store" />
-	<mount id="206" clientid="1599" name="Mutated Abomination" speed="10" premium="no" type="quest" />
-	<mount id="207" clientid="1608" name="Tangerine Flecked Koi" speed="10" premium="no" type="store" />
-	<mount id="208" clientid="1609" name="Brass Speckled Koi" speed="10" premium="no" type="store" />
-	<mount id="209" clientid="1610" name="Ink Spotted Koi" speed="10" premium="no" type="store" />
-	<mount id="210" clientid="1615" name="Frostbringer" speed="10" premium="no" type="store" />
-	<mount id="211" clientid="1616" name="Winterstride" speed="10" premium="no" type="store" />
-	<mount id="212" clientid="1617" name="Icebreacher" speed="10" premium="no" type="store" />
-	<mount id="213" clientid="1672" name="Boisterous Bull" speed="10" premium="no" type="store" />
-	<mount id="214" clientid="1673" name="Surly Steer" speed="10" premium="no" type="store" />
-	<mount id="215" clientid="1674" name="Obstinate Ox" speed="10" premium="no" type="store" />
-	<mount id="216" clientid="1677" name="Darkfire Devourer" speed="10" premium="no" type="store" />
-	<mount id="217" clientid="1682" name="Spirit of Purity" speed="10" premium="yes" type="quest" />
+	<mount id="181" clientid="1391" name="Rift Watcher" speed="20" premium="no" type="store" />
+	<mount id="182" clientid="1417" name="Phant" speed="20" premium="yes" type="arena" />
+	<mount id="183" clientid="1430" name="Shellodon" speed="20" premium="yes" type="quest" />
+	<mount id="184" clientid="1431" name="Singeing Steed" speed="20" premium="yes" type="quest" />
+	<mount id="185" clientid="1439" name="Hyacinth" speed="20" premium="no" type="store" />
+	<mount id="186" clientid="1440" name="Peony" speed="20" premium="no" type="store" />
+	<mount id="187" clientid="1441" name="Dandelion" speed="20" premium="no" type="store" />
+	<mount id="188" clientid="1446" name="Rustwurm" speed="20" premium="no" type="store" />
+	<mount id="189" clientid="1447" name="Bogwurm" speed="20" premium="no" type="store" />
+	<mount id="190" clientid="1448" name="Gloomwurm" speed="20" premium="no" type="store" />
+	<mount id="191" clientid="1453" name="Emerald Raven" speed="20" premium="no" type="store" />
+	<mount id="192" clientid="1454" name="Mystic Raven" speed="20" premium="no" type="store" />
+	<mount id="193" clientid="1455" name="Radiant Raven" speed="20" premium="no" type="store" />
+	<mount id="194" clientid="1459" name="Gloothomotive" speed="20" premium="yes" type="store" />
+	<mount id="195" clientid="1491" name="Topaz Shrine" speed="20" premium="no" type="store" />
+	<mount id="196" clientid="1492" name="Jade Shrine" speed="20" premium="no" type="store" />
+	<mount id="197" clientid="1493" name="Obsidian Shrine" speed="20" premium="no" type="store" />
+	<mount id="198" clientid="1526" name="Poppy ibex" speed="20" premium="no" type="store" />
+	<mount id="199" clientid="1527" name="Mint ibex" speed="20" premium="no" type="store" />
+	<mount id="200" clientid="1528" name="Cinnamon ibex" speed="20" premium="no" type="store" />
+	<mount id="201" clientid="1536" name="Giant Beaver" speed="20" premium="yes" type="quest" />
+	<mount id="202" clientid="1577" name="Noxious Ripptor" speed="20" premium="yes" type="quest" />
+	<mount id="203" clientid="1578" name="Parade Horse" speed="20" premium="no" type="store" />
+	<mount id="204" clientid="1579" name="Jousting Horse" speed="20" premium="no" type="store" />
+	<mount id="205" clientid="1580" name="Tourney Horse" speed="20" premium="no" type="store" />
+	<mount id="206" clientid="1599" name="Mutated Abomination" speed="20" premium="no" type="store" />
+	<mount id="207" clientid="1609" name="Brass Speckled Koi" speed="20" premium="no" type="store" />
+	<mount id="208" clientid="1615" name="Frostbringer" speed="20" premium="no" type="store" />
+	<mount id="209" clientid="1616" name="Winterstride" speed="20" premium="no" type="store" />
+	<mount id="210" clientid="1617" name="Icebreacher" speed="20" premium="no" type="store" />
+	<mount id="211" clientid="1608" name="Tangerine Flecked Koi" speed="20" premium="no" type="store" />
+	<mount id="212" clientid="1610" name="Ink Spotted Koi" speed="20" premium="no" type="store" />
+	
+	<!-- News Mounts 13.20 -->
+	<mount id="213" clientid="1632" name="Foxmouse" speed="35" premium="no" type="store" />
+	<mount id="214" clientid="1672" name="Boisterous Bull" speed="35" premium="no" type="store" />
+	<mount id="215" clientid="1673" name="Surly Steer" speed="35" premium="no" type="store" />
+	<mount id="216" clientid="1674" name="Obstinate Ox" speed="35" premium="no" type="store" />
+	<mount id="217" clientid="1677" name="Darkfire Devourer" speed="35" premium="no" type="store" />
+	<mount id="218" clientid="1682" name="Spirit of Purity" speed="35" premium="no" type="store" />
 </mounts>

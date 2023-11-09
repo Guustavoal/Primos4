@@ -121,14 +121,14 @@
 		<attribute key="item" value="9685" count="25" />
 	</imbuement>
 	<imbuement name="Vampirism" base="2" category="1" iconid="46" premium="1" storage="0">
-		<attribute key="description" value="Converts 10% of damage to HP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="lifeleech" bonus="1000" chance="100" />
+		<attribute key="description" value="Converts 8% of damage to HP with a chance of 100%." />
+		<attribute key="effect" type="skill" value="lifeleech" bonus="800" chance="100" />
 		<attribute key="item" value="9685" count="25" />
 		<attribute key="item" value="9633" count="15" />
 	</imbuement>
 	<imbuement name="Vampirism" base="3" category="1" iconid="46" premium="1" storage="50488">
-		<attribute key="description" value="Converts 25% of damage to HP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="lifeleech" bonus="2500" chance="100" />
+		<attribute key="description" value="Converts 20% of damage to HP with a chance of 100%." />
+		<attribute key="effect" type="skill" value="lifeleech" bonus="2000" chance="100" />
 		<attribute key="item" value="9685" count="25" />
 		<attribute key="item" value="9633" count="15" />
 		<attribute key="item" value="9663" count="5" />
@@ -140,14 +140,14 @@
 		<attribute key="item" value="11492" count="25" />
 	</imbuement>
 	<imbuement name="Void" base="2" category="2" iconid="49" premium="1" storage="0">
-		<attribute key="description" value="Converts 5% of damage to MP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="manaleech" bonus="500" chance="100" />
+		<attribute key="description" value="Converts 8% of damage to MP with a chance of 100%." />
+		<attribute key="effect" type="skill" value="manaleech" bonus="800" chance="100" />
 		<attribute key="item" value="11492" count="25" />
 		<attribute key="item" value="20200" count="25" />
 	</imbuement>
 	<imbuement name="Void" base="3" category="2" iconid="49" premium="1" storage="50494">
-		<attribute key="description" value="Converts 8% of damage to MP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="manaleech" bonus="800" chance="100" />
+		<attribute key="description" value="Converts 15% of damage to MP with a chance of 100%." />
+		<attribute key="effect" type="skill" value="manaleech" bonus="1500" chance="100" />
 		<attribute key="item" value="11492" count="25" />
 		<attribute key="item" value="20200" count="25" />
 		<attribute key="item" value="22730" count="5" />
@@ -242,23 +242,23 @@
 		<attribute key="effect" type="reduction" combat="ice" value="15" />
 		<attribute key="item" value="10295" count="25" />
 		<attribute key="item" value="10307" count="15" />
-		<attribute key="item" value="14012" count="10" />
+		<attribute key="item" value="14012" count="5" />
 	</imbuement>
 	<imbuement name="Cloud Fabric" base="1" category="8" iconid="31" premium="0" storage="0">
 		<attribute key="description" value="Reduces energy damage by 3%." />
 		<attribute key="effect" type="reduction" combat="energy" value="3" />
-		<attribute key="item" value="9644" count="20" />
+		<attribute key="item" value="9644" count="25" />
 	</imbuement>
 	<imbuement name="Cloud Fabric" base="2" category="8" iconid="31" premium="1" storage="0">
 		<attribute key="description" value="Reduces energy damage by 8%." />
 		<attribute key="effect" type="reduction" combat="energy" value="8" />
-		<attribute key="item" value="9644" count="20" />
+		<attribute key="item" value="9644" count="25" />
 		<attribute key="item" value="14079" count="15" />
 	</imbuement>
 	<imbuement name="Cloud Fabric" base="3" category="8" iconid="31" premium="1" storage="50490">
 		<attribute key="description" value="Reduces energy damage by 15%." />
 		<attribute key="effect" type="reduction" combat="energy" value="15" />
-		<attribute key="item" value="9644" count="20" />
+		<attribute key="item" value="9644" count="25" />
 		<attribute key="item" value="14079" count="15" />
 		<attribute key="item" value="9665" count="10" />
 	</imbuement>

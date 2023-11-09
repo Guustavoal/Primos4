@@ -595,13 +595,19 @@ function Player:calculateLootFactor(monster)
 	local vipActivators = 0
 	local vipBoost = 0
 	local suffix = ""
-
+	local dropBonus
+	
 	for _, participant in ipairs(participants) do
 		if participant:isVip() then
 			local boost = configManager.getNumber(configKeys.VIP_BONUS_LOOT)
 			boost = ((boost > 100 and 100) or boost) / 100
 			vipBoost = vipBoost + boost
 			vipActivators = vipActivators + 1
+		end
+		local bonusOrb = Karin.Orbs:getBonus(participant, 'loot')
+		if bonusOrb and bonusOrb > 0 then
+			factor = factor + (factor * bonusOrb / 100)
+			dropBonus = bonusOrb
 		end
 	end
 	if vipActivators > 0 then
@@ -677,5 +683,8 @@ end
 
 function Player:canFightBoss(bossNameOrId)
 	local cooldown = self:getBossCooldown(bossNameOrId)
-	return cooldown <= os.time()
+	if cooldown > os.time() then
+		return false
+	end
+	return true
 end

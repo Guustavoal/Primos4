@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <outfits>
-	<!-- Female outfits -->
+	<!-- Female outfits olds -->
 	<outfit type="0" looktype="136" name="Citizen" premium="no" unlocked="yes" enabled="yes" />
 	<outfit type="0" looktype="137" name="Hunter" premium="no" unlocked="yes" enabled="yes" />
 	<outfit type="0" looktype="138" name="Mage" premium="no" unlocked="yes" enabled="yes" />
@@ -41,7 +41,7 @@
 	<outfit type="0" looktype="635" name="Conjurer" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="636" name="Beastmaster" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="664" name="Chaos Acolyte" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="0" looktype="666" name="Death Herald" premium="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="666" name="Death Herald" premium="no" unlocked="no" enabled="yes" />
 	<outfit type="0" looktype="683" name="Ranger" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="694" name="Ceremonial Garb" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="696" name="Puppeteer" premium="no" unlocked="no" enabled="yes" from="store" />
@@ -101,7 +101,7 @@
 	<outfit type="0" looktype="1387" name="Citizen of Issavi" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="0" looktype="1416" name="Forest Warden" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="1437" name="Royal Bounacean Advisor" premium="yes" unlocked="no" enabled="yes" from="quest" />
-	<outfit type="0" looktype="1445" name="Dragon Knight" premium="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="1445" name="Dragon Knight" premium="no" unlocked="no" enabled="yes" />
 	<outfit type="0" looktype="1450" name="Arbalester" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="1456" name="Royal Costume" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="1461" name="Formal Dress" premium="yes" unlocked="no" enabled="yes" from="store" />
@@ -109,15 +109,16 @@
 	<outfit type="0" looktype="1501" name="Nordic Chieftain" premium="yes" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="1569" name="Fire-Fighter" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="0" looktype="1576" name="Fencer" premium="yes" unlocked="no" enabled="yes" from="store" />
-	<outfit type="0" looktype="1582" name="Shadowlotus Disciple" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="0" looktype="1598" name="Ancient Aucar" premium="yes" unlocked="no" enabled="yes" from="quest" />
-	<outfit type="0" looktype="1613" name="Frost Tracer" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="0" looktype="1619" name="Armoured Archer" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="0" looktype="1663" name="Decaying Defender" premium="yes" unlocked="no" enabled="yes" from="quest" />
-	<outfit type="0" looktype="1676" name="Darklight Evoker" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="0" looktype="1681" name="Flamefury Mage" premium="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="1582" name="Shadowlotus Disciple" premium="yes" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="1598" name="Ancient Aucar" premium="yes" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="1619" name="Armoured Archer" premium="yes" unlocked="no" enabled="yes" />
+	<outfit type="0" looktype="1613" name="Frost Tracer" premium="yes" unlocked="no" enabled="yes" from="store" />
+	
+	<!-- News Outfit 13.20 -->
+	<outfit type="0" looktype="1663" name="Decaying Defender" premium="yes" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="1676" name="Darklight Evoker" premium="yes" unlocked="no" enabled="yes" from="store" />
 
-	<!-- Male outfits -->
+	<!-- Male outfits olds -->
 	<outfit type="1" looktype="128" name="Citizen" premium="no" unlocked="yes" enabled="yes" />
 	<outfit type="1" looktype="129" name="Hunter" premium="no" unlocked="yes" enabled="yes" />
 	<outfit type="1" looktype="130" name="Mage" premium="no" unlocked="yes" enabled="yes" />
@@ -158,7 +159,7 @@
 	<outfit type="1" looktype="634" name="Conjurer" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="637" name="Beastmaster" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="665" name="Chaos Acolyte" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="1" looktype="667" name="Death Herald" premium="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="667" name="Death Herald" premium="no" unlocked="no" enabled="yes" />
 	<outfit type="1" looktype="684" name="Ranger" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="695" name="Ceremonial Garb" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="697" name="Puppeteer" premium="no" unlocked="no" enabled="yes" from="store" />
@@ -218,7 +219,7 @@
 	<outfit type="1" looktype="1386" name="Citizen of Issavi" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="1" looktype="1415" name="Forest Warden" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="1436" name="Royal Bounacean Advisor" premium="yes" unlocked="no" enabled="yes" from="quest" />
-	<outfit type="1" looktype="1444" name="Dragon Knight" premium="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="1444" name="Dragon Knight" premium="no" unlocked="no" enabled="yes" />
 	<outfit type="1" looktype="1449" name="Arbalester" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="1457" name="Royal Costume" premium="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="1460" name="Formal Dress" premium="yes" unlocked="no" enabled="yes" from="store" />
@@ -226,11 +227,13 @@
 	<outfit type="1" looktype="1500" name="Nordic Chieftain" premium="yes" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="1568" name="Fire-Fighter" premium="yes" unlocked="no" enabled="yes" from="quest" />
 	<outfit type="1" looktype="1575" name="Fencer" premium="yes" unlocked="no" enabled="yes" from="store" />
-	<outfit type="1" looktype="1581" name="Shadowlotus Disciple" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="1" looktype="1597" name="Ancient Aucar" premium="yes" unlocked="no" enabled="yes" from="quest" />
-	<outfit type="1" looktype="1612" name="Frost Tracer" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="1" looktype="1618" name="Armoured Archer" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="1" looktype="1662" name="Decaying Defender" premium="yes" unlocked="no" enabled="yes" from="quest" />
-	<outfit type="1" looktype="1675" name="Darklight Evoker" premium="no" unlocked="no" enabled="yes" from="store" />
-	<outfit type="1" looktype="1680" name="Flamefury Mage" premium="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="1581" name="Shadowlotus Disciple" premium="yes" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="1597" name="Ancient Aucar" premium="yes" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="1618" name="Armoured Archer" premium="yes" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1612" name="Frost Tracer" premium="yes" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="1683" name="majin buu" premium="yes" unlocked="no" enabled="yes" from="store" />
+	
+	<!-- News Outfit 13.20 -->
+	<outfit type="1" looktype="1662" name="Decaying Defender" premium="yes" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="1675" name="Darklight Evoker" premium="yes" unlocked="no" enabled="yes" from="store" />
 </outfits>

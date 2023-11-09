@@ -11,7 +11,6 @@ local balance = TalkAction("!balance")
 
 function balance.onSay(player, words, param)
 	player:sendTextMessage(config.messageStyle, "Your current bank balance is " .. FormatNumber(Bank.balance(player)) .. ".")
-	return true
 end
 
 balance:separator(" ")
@@ -28,17 +27,17 @@ function deposit.onSay(player, words, param)
 		amount = tonumber(param)
 		if not amount or amount <= 0 and isValidMoney(amount) then
 			player:sendTextMessage(config.messageStyle, "Invalid amount.")
-			return true
+			return false
 		end
 	end
 
 	if not Bank.deposit(player, amount) then
 		player:sendTextMessage(config.messageStyle, "You don't have enough money.")
-		return true
+		return false
 	end
 
 	player:sendTextMessage(config.messageStyle, "You have deposited " .. FormatNumber(amount) .. " gold coins.")
-	return true
+	return false
 end
 
 deposit:separator(" ")
@@ -51,16 +50,16 @@ function withdraw.onSay(player, words, param)
 	local amount = tonumber(param)
 	if not amount or amount <= 0 and isValidMoney(amount) then
 		player:sendTextMessage(config.messageStyle, "Invalid amount.")
-		return true
+		return false
 	end
 
 	if not Bank.withdraw(player, amount) then
 		player:sendTextMessage(config.messageStyle, "You don't have enough money.")
-		return true
+		return false
 	end
 
 	player:sendTextMessage(config.messageStyle, "You have withdrawn " .. FormatNumber(amount) .. " gold coins.")
-	return true
+	return false
 end
 
 withdraw:separator(" ")
@@ -75,23 +74,23 @@ function transfer.onSay(player, words, param)
 	local amount = tonumber(split[2])
 	if not amount or amount <= 0 and isValidMoney(amount) then
 		player:sendTextMessage(config.messageStyle, "Invalid amount.")
-		return true
+		return false
 	end
 
 	local normalizedName = Game.getNormalizedPlayerName(name)
 	if not normalizedName then
 		player:sendTextMessage(config.messageStyle, "A player with name " .. name .. " does not exist.")
-		return true
+		return false
 	end
 	name = normalizedName
 
-	if not player:transferMoneyTo(name, amount) then
+	if not Bank.transfer(player, name, amount) then
 		player:sendTextMessage(config.messageStyle, "You don't have enough money.")
-		return true
+		return false
 	end
 
 	player:sendTextMessage(config.messageStyle, "You have transferred " .. FormatNumber(amount) .. " gold coins to " .. name .. ".")
-	return true
+	return false
 end
 
 transfer:separator(" ")
