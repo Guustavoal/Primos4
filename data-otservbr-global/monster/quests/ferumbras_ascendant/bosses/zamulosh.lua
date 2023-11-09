@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"AscendantBossesDeath",
-}
-
 monster.health = 300000
 monster.maxHealth = 300000
 monster.race = "undead"
@@ -32,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1181,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.FerumbrasAscension.ZamuloshTimer,
 }
 
 monster.strategiesTarget = {
@@ -93,17 +90,16 @@ monster.loot = {
 	{ id = 16122, chance = 10000, maxCount = 6 }, -- green crystal splinter
 	{ id = 16123, chance = 10000, maxCount = 6 }, -- brown crystal splinter
 	{ id = 16124, chance = 10000, maxCount = 6 }, -- blue crystal splinter
-	{ id = 3039, chance = 1000 }, -- red gem
-	{ id = 3037, chance = 1000 }, -- yellow gem
-	{ id = 3038, chance = 1000 }, -- green gem
-	{ id = 3041, chance = 1000 }, -- blue gem
+	{ id = 3039, chance = 1200, minCount = 1, maxCount = 3  }, -- red gem
+	{ id = 3037, chance = 1200, minCount = 1, maxCount = 3  }, -- yellow gem
+	{ id = 3038, chance = 1300, minCount = 1, maxCount = 3  }, -- green gem
+	{ id = 3041, chance = 1400, minCount = 1, maxCount = 3  }, -- blue gem
 	{ id = 3053, chance = 6000 }, -- time ring
 	{ id = 3098, chance = 6000 }, -- ring of healing
-	{ id = 22867, chance = 770 }, -- rift crossbow
-	{ id = 8050, chance = 770 }, -- crystalline armor
-	{ id = 22726, chance = 670 }, -- rift shield
-	{ id = 22762, chance = 500, unique = true }, -- maimer
-	{ id = 22555, chance = 500, unique = true }, -- stone wall
+	{ id = 22867, chance = 2770 }, -- rift crossbow
+	{ id = 8050, chance = 1770 }, -- crystalline armor
+	{ id = 22726, chance = 1670 }, -- rift shield
+	{ id = 22762, chance = 1000, unique = true }, -- maimer
 }
 
 monster.attacks = {

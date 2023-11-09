@@ -99,6 +99,8 @@ monster.loot = {
 	{ id = 23533, chance = 3500 }, -- ring of red plasma
 	{ id = 3554, chance = 5000, unique = true }, -- steel boots
 	{ id = 8075, chance = 3000, unique = true }, -- spellbook of lost souls
+	{ id = 23538, chance = 1000 }, -- vibrant egg
+	{ id = 23684, chance = 500 }, -- crackling egg
 }
 
 monster.attacks = {

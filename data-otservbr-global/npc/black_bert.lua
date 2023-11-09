@@ -33,7 +33,6 @@ npcConfig.shop = {
 	{ clientId = 396, buy = 5000, count = 1 },
 	{ clientId = 406, buy = 15000, count = 1 },
 	{ clientId = 3216, buy = 8000, count = 1 },
-	{ clientId = 3217, buy = 8000, count = 1 },
 	{ clientId = 3232, buy = 3000, count = 1 },
 	{ clientId = 3233, buy = 16000, count = 1 },
 	{ clientId = 3234, buy = 150, count = 1 },

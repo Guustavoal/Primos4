@@ -14,7 +14,6 @@ monster.outfit = {
 }
 
 monster.events = {
-	"GraveDangerBossDeath",
 	"zelosDeath",
 }
 
@@ -27,6 +26,7 @@ monster.speed = 212
 monster.bosstiary = {
 	bossRaceId = 1784,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_20.GraveDanger.Bosses.KingZelosTimer,
 }
 
 monster.changeTarget = {
@@ -76,10 +76,10 @@ monster.loot = {
 	{ name = "young lich worm", chance = 5500 },
 	{ name = "mortal mace", chance = 1300 },
 	{ name = "golden hyaena pendant", chance = 1100 },
-	{ name = "bow of cataclysm", chance = 600 },
-	{ name = "galea mortis", chance = 550 },
-	{ name = "shadow cowl", chance = 530 },
-	{ name = "toga mortis", chance = 500 },
+	{ name = "bow of cataclysm", chance = 1000 },
+	{ name = "galea mortis", chance = 1050 },
+	{ name = "shadow cowl", chance = 730 },
+	{ name = "toga mortis", chance = 1000 },
 }
 
 monster.attacks = {

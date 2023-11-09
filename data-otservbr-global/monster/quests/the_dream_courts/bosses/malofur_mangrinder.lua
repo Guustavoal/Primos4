@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"DreamCourtsBossDeath",
-}
-
 monster.health = 320000
 monster.maxHealth = 320000
 monster.race = "blood"
@@ -88,7 +84,6 @@ monster.loot = {
 	{ name = "bullseye potion", chance = 20000 },
 	{ name = "chaos mace", chance = 8330 },
 	{ name = "crystal coin", chance = 25000, maxCount = 2 },
-	{ name = "energy bar", chance = 88890 },
 	{ id = 282, chance = 8330 }, -- giant shimmering pearl
 	{ name = "gold ingot", chance = 22220 },
 	{ name = "gold token", chance = 60000, maxCount = 3 },
@@ -99,11 +94,10 @@ monster.loot = {
 	{ name = "mysterious remains", chance = 88890 },
 	{ name = "piggy bank", chance = 97220 },
 	{ name = "platinum coin", chance = 100000, maxCount = 8 },
-	{ name = "pomegranate", chance = 16670 },
+	{ name = "pomegranate", chance = 1670 },
 	{ name = "resizer", chance = 2780 },
 	{ id = 23533, chance = 5560 }, -- ring of red plasma
 	{ name = "ring of the sky", chance = 2780 },
-	{ name = "royal star", chance = 52780 },
 	{ name = "silver token", chance = 91670, maxCount = 3 },
 	{ name = "skull staff", chance = 8330 },
 	{ name = "soul stone", chance = 8330 },

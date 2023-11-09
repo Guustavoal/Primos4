@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"ShargonDeath",
-}
-
 monster.bosstiary = {
 	bossRaceId = 1047,
 	bossRace = RARITY_BANE,

@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"InquisitionBossDeath",
-}
-
 monster.health = 31500
 monster.maxHealth = 31500
 monster.race = "fire"

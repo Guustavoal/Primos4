@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"SoulwarsBossDeath",
-}
-
 monster.health = 300000
 monster.maxHealth = 300000
 monster.race = "undead"
@@ -32,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1903,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_40.SoulWar.GoshnarSpiteTimer,
 }
 
 monster.strategiesTarget = {
@@ -98,10 +95,14 @@ monster.loot = {
 	{ name = "ultimate mana potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "supreme health potion", chance = 18000, minCount = 50, maxCount = 100 },
 	{ name = "ultimate spirit potion", chance = 18000, minCount = 50, maxCount = 100 },
-	{ name = "the skull of a beast", chance = 400 },
 	{ name = "figurine of spite", chance = 400 },
 	{ name = "spite's spirit", chance = 400 },
-	{ name = "bag you desire", chance = 100 },
+	{ name = "spectral horseshoe", chance = 350 },
+	{ name = "spectral saddle", chance = 350 },
+	{ name = "spectral horse tack", chance = 350 },
+	{ name = "the skull of a beast", chance = 350 },
+	{ name = "bracelet of strengthening", chance = 350 },
+	{ name = "bag you desire", chance = 600 },
 }
 
 monster.attacks = {

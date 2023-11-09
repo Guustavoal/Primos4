@@ -13,13 +13,10 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"CultsOfTibiaBossDeath",
-}
-
 monster.bosstiary = {
 	bossRaceId = 1409,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.CultsOfTibia.Minotaurs.BossTimer,
 }
 
 monster.health = 300000
@@ -105,6 +102,8 @@ monster.loot = {
 	{ name = "velvet mantle", chance = 1890 },
 	{ name = "iron ore", chance = 14542 },
 	{ name = "giant sword", chance = 16892 },
+	{ id = 20355, chance = 1000 }, -- Melting Horn
+	{ id = 30192, chance = 2000 }, -- Percht Skull
 }
 
 monster.attacks = {

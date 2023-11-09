@@ -13,13 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"ForgottenKnowledgeBossDeath",
-	"MeltingDeath",
-}
-
-monster.health = 70000
-monster.maxHealth = 70000
+monster.health = 160000
+monster.maxHealth = 160000
 monster.race = "undead"
 monster.corpse = 7282
 monster.speed = 120
@@ -33,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1336,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.ForgottenKnowledge.HorrorTimer,
 }
 
 monster.strategiesTarget = {
@@ -62,6 +58,10 @@ monster.flags = {
 	canWalkOnPoison = true,
 }
 
+monster.events = {
+	"MeltingDeath",
+}
+
 monster.light = {
 	level = 0,
 	color = 0,
@@ -80,11 +80,11 @@ monster.loot = {
 	{ id = 7441, chance = 5100 }, -- ice cube
 	{ id = 3284, chance = 320 }, -- ice rapier
 	{ id = 7449, chance = 580 }, -- crystal sword
-	{ id = 3028, chance = 730 }, -- small diamond
-	{ id = 16120, chance = 9660, maxCount = 5 }, -- violet crystal shard
-	{ id = 3041, chance = 5000 }, -- blue gem
+	{ id = 3028, chance = 730 , maxCount = 23 }, -- small diamond
+	{ id = 16120, chance = 9660, maxCount = 15 }, -- violet crystal shard
+	{ id = 3041, chance = 5000 , maxCount = 3 }, -- blue gem
 	{ id = 7643, chance = 19500, maxCount = 3 }, -- ultimate health potion
-	{ id = 16121, chance = 9660, maxCount = 5 }, -- green crystal shard
+	{ id = 16121, chance = 9660, maxCount = 15 }, -- green crystal shard
 	{ id = 7459, chance = 9660 }, -- pair of earmuffs
 	{ id = 23516, chance = 9660 }, -- instable proto matter
 	{ id = 3333, chance = 9660 }, -- crystal mace
@@ -92,7 +92,7 @@ monster.loot = {
 	{ id = 16175, chance = 200 }, -- shiny blade
 	{ id = 14247, chance = 200 }, -- ornate crossbow
 	{ id = 8059, chance = 500 }, -- frozen plate
-	{ id = 24958, chance = 500, unique = true }, -- part of a rune
+	{ id = 24958, chance = 1050, unique = true }, -- part of a rune
 	{ id = 19363, chance = 200 }, -- runic ice shield
 	{ id = 22721, chance = 100000 }, -- gold token
 	{ id = 22516, chance = 100000 }, -- silver token

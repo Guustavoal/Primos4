@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 5200
-monster.maxHealth = 5200
+monster.health = 52000
+monster.maxHealth = 52000
 monster.race = "blood"
 monster.corpse = 27718
 monster.speed = 125
@@ -28,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1560,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U10_80.Grimvale.BloodbackTimer,
 }
 
 monster.strategiesTarget = {
@@ -94,7 +95,13 @@ monster.loot = {
 	{ name = "fur boots", chance = 400 },
 	{ id = 22102, chance = 250 }, -- wereboar trophy
 	{ name = "silver token", chance = 250 },
-	{ name = "wolf backpack", chance = 100 },
+	{ name = "wolf backpack", chance = 400 },
+	{ name = "foxtail", chance = 1000 },
+	{ id = 19136, chance = 1000 }, -- nail case
+	{ id = 12307, chance = 1000 }, -- harness
+	{ id = 12308, chance = 1000 }, -- reins
+	{ id = 5907, chance = 1000 }, -- slingshot
+	{ id = 12802, chance = 2000, maxCount = 50 }, -- sugar oat
 }
 
 monster.attacks = {

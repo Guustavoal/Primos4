@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"DepthWarzoneBossDeath",
-}
-
 monster.health = 350000
 monster.maxHealth = 350000
 monster.race = "blood"
@@ -77,7 +73,6 @@ monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 63 },
 	{ name = "mastermind potion", chance = 100000 },
 	{ name = "stone skin amulet", chance = 100000 },
-	{ id = 27713, chance = 100000 }, -- heavy crystal fragment
 	{ name = "wand of inferno", chance = 75000 },
 	{ name = "great mana potion", chance = 64580, maxCount = 18 },
 	{ name = "blue crystal shard", chance = 60420 },
@@ -89,9 +84,7 @@ monster.loot = {
 	{ name = "damaged worm head", chance = 27080 },
 	{ name = "small amethyst", chance = 25000 },
 	{ name = "small diamond", chance = 20830 },
-	{ name = "slightly rusted helmet", chance = 20830 },
 	{ name = "green gem", chance = 18750 },
-	{ name = "slightly rusted shield", chance = 18750 },
 	{ name = "silver token", chance = 16670 },
 	{ name = "giant tentacle", chance = 16670 },
 	{ name = "yellow gem", chance = 16670 },
@@ -106,11 +99,14 @@ monster.loot = {
 	{ name = "muck rod", chance = 10420 },
 	{ name = "gold token", chance = 10420 },
 	{ name = "crystal coin", chance = 6250 },
-	{ name = "gnome shield", chance = 4170 },
+	{ name = "gnome shield", chance = 2170 },
 	{ name = "crystalline armor", chance = 4170 },
-	{ name = "gnome sword", chance = 4170 },
+	{ name = "gnome sword", chance = 2170 },
 	{ name = "terra mantle", chance = 2080 },
 	{ name = "violet gem", chance = 2080 },
+	{ name = "mallet pommel", chance = 3390 },
+	{ name = "gnome legs", chance = 1170 },
+	{ id = 27657, chance = 1000 }, -- crude wood plans
 }
 
 monster.attacks = {

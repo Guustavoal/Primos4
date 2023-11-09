@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"CultsOfTibiaBossDeath",
-}
-
 monster.bosstiary = {
 	bossRaceId = 1422,
 	bossRace = RARITY_ARCHFOE,
@@ -119,6 +115,7 @@ monster.loot = {
 	{ name = "shield of corruption", chance = 150 },
 	{ name = "plasma pearls", chance = 100000 },
 	{ name = "spiked squelcher", chance = 16892, maxCount = 2 },
+	{ id = 12547, chance = 400 }, -- Diapason 
 }
 
 monster.attacks = {

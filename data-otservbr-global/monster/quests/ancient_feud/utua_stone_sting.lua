@@ -16,10 +16,11 @@ monster.outfit = {
 monster.bosstiary = {
 	bossRaceId = 1984,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U10_80.Grimvale.UtuaTimer,
 }
 
-monster.health = 6400
-monster.maxHealth = 6400
+monster.health = 64000
+monster.maxHealth = 64000
 monster.race = "undead"
 monster.corpse = 12512
 monster.speed = 110
@@ -90,11 +91,14 @@ monster.loot = {
 	{ id = 12546, chance = 540 }, -- fist on a stick
 	{ id = 14043, chance = 540 }, -- guardian axe
 	{ id = 3366, chance = 540 }, -- magic plate armor
-	{ id = 34258, chance = 540 }, -- red silk flower
+	{ id = 34258, chance = 1000 }, -- red silk flower
 	{ id = 10438, chance = 540 }, -- spellweaver's robe
 	{ id = 3420, chance = 360 }, -- demon shield
 	{ id = 824, chance = 360 }, -- glacier robe
 	{ id = 33778, chance = 360 }, -- raw watermelon tourmaline
+	{ id = 32103, chance = 1000 }, -- decorative blue sheet
+	{ id = 32104, chance = 1000 }, -- decorative red sheet
+	{ id = 32105, chance = 1000 }, -- decorative green sheet
 }
 
 monster.attacks = {

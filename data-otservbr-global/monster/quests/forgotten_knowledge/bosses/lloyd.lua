@@ -13,14 +13,10 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"ForgottenKnowledgeBossDeath",
-	"LloydPrepareDeath",
-}
-
 monster.bosstiary = {
 	bossRaceId = 1329,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.ForgottenKnowledge.LloydTimer,
 }
 
 monster.health = 64000
@@ -62,6 +58,10 @@ monster.flags = {
 	canWalkOnPoison = true,
 }
 
+monster.events = {
+	"LloydPrepareDeath",
+}
+
 monster.light = {
 	level = 0,
 	color = 0,
@@ -88,7 +88,6 @@ monster.loot = {
 	{ id = 23542, chance = 38460 }, -- collar of blue plasma
 	{ name = "gold token", chance = 30770 },
 	{ id = 282, chance = 30770 }, -- giant shimmering pearl
-	{ name = "rusted armor", chance = 28210 },
 	{ id = 3039, chance = 28210 }, -- red gem
 	{ name = "small emerald", chance = 25640, maxCount = 10 },
 	{ name = "small amethyst", chance = 25640, maxCount = 12 },
@@ -107,8 +106,8 @@ monster.loot = {
 	{ name = "spellweaver's robe", chance = 5130 },
 	{ name = "demon helmet", chance = 5130 },
 	{ name = "boots of haste", chance = 2560 },
-	{ id = 24959, chance = 500, unique = true }, -- part of a rune
-	{ name = "pillow backpack", chance = 256 },
+	{ id = 24959, chance = 1050, unique = true }, -- part of a rune
+	{ name = "pillow backpack", chance = 700 },
 }
 
 monster.attacks = {

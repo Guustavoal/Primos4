@@ -13,16 +13,11 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"SoulwarsBossDeath",
-}
-
 monster.health = 500000
 monster.maxHealth = 500000
 monster.race = "undead"
 monster.corpse = 33889
 monster.speed = 165
-monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
@@ -32,6 +27,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1969,
 	bossRace = RARITY_NEMESIS,
+	storageCooldown = Storage.Quest.U12_40.SoulWar.GoshnarMegalomaniaTimer,
 }
 
 monster.strategiesTarget = {
@@ -106,13 +102,18 @@ monster.loot = {
 	{ name = "figurine of megalomania", chance = 400 },
 	{ name = "megalomania's skull", chance = 400 },
 	{ name = "megalomania's essence", chance = 400 },
-	{ name = "bag you desire", chance = 100 },
+	{ name = "spectral horseshoe", chance = 500 },
+	{ name = "spectral saddle", chance = 500 },
+	{ name = "spectral horse tack", chance = 500 },
+	{ name = "the skull of a beast", chance = 500 },
+	{ name = "bracelet of strengthening", chance = 500 },
+	{ name = "bag you desire", chance = 750 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -8000 },
-	{ name = "combat", interval = 2000, chance = 30, type = COMBAT_PHYSICALDAMAGE, minDamage = -2950, maxDamage = -4400, range = 7, radius = 3, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
-	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_DEATHDAMAGE, minDamage = -3000, maxDamage = -5500, length = 8, spread = 3, effect = CONST_ME_INSECTS, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -5000 },
+	{ name = "combat", interval = 1300, chance = 30, type = COMBAT_PHYSICALDAMAGE, minDamage = -2950, maxDamage = -4400, range = 7, radius = 3, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_MORTAREA, target = true },
+	{ name = "combat", interval = 1700, chance = 10, type = COMBAT_DEATHDAMAGE, minDamage = -3000, maxDamage = -5500, length = 8, spread = 3, effect = CONST_ME_INSECTS, target = false },
 	{ name = "singlecloudchain", interval = 6000, chance = 40, minDamage = -3300, maxDamage = -5500, range = 6, effect = CONST_ME_ENERGYHIT, target = true },
 	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_DEATHDAMAGE, minDamage = -3300, maxDamage = -5200, length = 10, spread = 0, effect = CONST_ME_BLUE_GHOST, target = false },
 }

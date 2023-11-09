@@ -13,12 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"GraveDangerBossDeath",
-}
-
-monster.health = 75000
-monster.maxHealth = 75000
+monster.health = 250000
+monster.maxHealth = 250000
 monster.race = "venom"
 monster.corpse = 31599
 monster.speed = 125
@@ -32,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1758,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_20.GraveDanger.Bosses.DukeKruleTimer,
 }
 
 monster.strategiesTarget = {
@@ -87,18 +84,18 @@ monster.loot = {
 	{ name = "piece of draconian steel", minCount = 0, maxCount = 3, chance = 9000 },
 	{ name = "green gem", minCount = 0, maxCount = 2, chance = 12000 },
 	{ name = "silver token", minCount = 0, maxCount = 2, chance = 9500 },
-	{ name = "blue gem", chance = 11000 },
+	{ name = "blue gem", chance = 11000, maxCount = 3  },
 	{ name = "crusader helmet", chance = 6400 },
 	{ name = "gold ingot", minCount = 0, maxCount = 1, chance = 10000 },
-	{ id = 3039, chance = 11000 }, -- red gem
+	{ id = 3039, chance = 11000, maxCount = 3  }, -- red gem
 	{ name = "terra hood", chance = 7800 },
 	{ name = "yellow gem", chance = 9500 },
 	{ name = "young lich worm", chance = 5800 },
-	{ name = "bear skin", chance = 1800 },
+	{ name = "bear skin", chance = 1750 },
 	{ name = "noble amulet", chance = 1100 },
 	{ name = "rotten heart", chance = 1700 },
-	{ name = "terra helmet", chance = 700 },
-	{ name = "final judgement", chance = 460 },
+	{ name = "terra helmet", chance = 1700 },
+	{ name = "final judgement", chance = 500 },
 }
 
 monster.attacks = {

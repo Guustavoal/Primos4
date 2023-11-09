@@ -16,6 +16,7 @@ monster.outfit = {
 monster.bosstiary = {
 	bossRaceId = 1225,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = 14323,
 }
 
 monster.health = 290000
@@ -93,6 +94,8 @@ monster.loot = {
 	{ id = 23533, chance = 4000 }, -- ring of red plasma
 	{ id = 23474, chance = 2000, unique = true }, -- tiara of power
 	{ id = 23477, chance = 2000, unique = true }, -- void boots
+	{ id = 23538, chance = 500 }, -- vibrant egg
+	{ id = 23684, chance = 350 }, -- crackling egg
 }
 
 monster.attacks = {

@@ -16,6 +16,7 @@ monster.outfit = {
 monster.bosstiary = {
 	bossRaceId = 1379,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.FirstDragon.GelidrazahTimer,
 }
 
 monster.health = 10000

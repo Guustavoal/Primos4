@@ -28,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1892,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_30.FeasterOfSouls.VokTimer,
 }
 
 monster.strategiesTarget = {
@@ -65,16 +66,15 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "platinum coin", chance = 100000, maxCount = 10 },
+	{ name = "platinum coin", chance = 100000, maxCount = 30 },
 	{ name = "cursed bone", chance = 40000, maxCount = 10 },
-	{ name = "skull coin", chance = 40000 },
 	{ name = "white gem", chance = 40000, maxCount = 2 },
 	{ name = "moonstone", chance = 30000 },
 	{ name = "gemmed figurine", chance = 20000 },
 	{ name = "ornate crossbow", chance = 10000 },
-	{ name = "silver hand mirror", chance = 150 },
+	{ name = "silver hand mirror", chance = 1500 },
 	{ name = "death toll", chance = 150 },
-	{ name = "pair of nightmare boots", chance = 150 },
+	{ name = "pair of nightmare boots", chance = 1550 },
 }
 
 monster.attacks = {

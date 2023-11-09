@@ -52,6 +52,15 @@ monster.light = {
 	color = 0,
 }
 
+
+monster.summon = {
+	maxSummons = 6,
+	summons = {
+		{ name = "Corrupted Soul", chance = 1100, interval = 1000 },
+	},
+}
+
+
 monster.voices = {
 	interval = 5000,
 	chance = 10,
@@ -67,21 +76,24 @@ monster.defenses = {
 	defense = 50,
 	armor = 50,
 	mitigation = 0.51,
-	{ name = "soulcatcher summon", interval = 2000, chance = 10, target = false },
+	{ name = "soulcatcher summon", interval = 2000, chance = 10000, target = false },
+	{ name = "soulcatcher summon", interval = 2000, chance = 10000, target = true },
 	{ name = "combat", interval = 2000, chance = 25, type = COMBAT_HEALING, minDamage = 100, maxDamage = 145, effect = CONST_ME_HITBYFIRE, target = false },
+	{ name = "combat", interval = 2000, chance = 70, type = COMBAT_HEALING, minDamage = 1000, maxDamage = 1500, effect = CONST_ME_MAGIC_BLUE, target = false },
+
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 0 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = 0 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 0 },
-	{ type = COMBAT_FIREDAMAGE, percent = 0 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = 50 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 50 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 50 },
+	{ type = COMBAT_FIREDAMAGE, percent = 50 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = 0 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 0 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 0 },
+	{ type = COMBAT_ICEDAMAGE, percent = 50 },
+	{ type = COMBAT_HOLYDAMAGE, percent = 50 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 50 },
 }
 
 monster.immunities = {

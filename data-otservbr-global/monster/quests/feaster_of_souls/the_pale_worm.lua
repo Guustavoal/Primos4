@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 420000
-monster.maxHealth = 420000
+monster.health = 220000
+monster.maxHealth = 220000
 monster.race = "undead"
 monster.corpse = 32702
 monster.speed = 125
@@ -22,7 +22,6 @@ monster.manaCost = 0
 
 monster.events = {
 	"paleWormDeath",
-	"FeasterOfSoulsBossDeath",
 }
 
 monster.changeTarget = {
@@ -33,6 +32,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1881,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_30.FeasterOfSouls.PaleWormTimer,
 }
 
 monster.strategiesTarget = {
@@ -92,17 +92,16 @@ monster.loot = {
 	{ name = "grimace", chance = 5880 },
 	{ name = "amber", chance = 5880 },
 	{ name = "amber with a dragonfly", chance = 3920 },
-	{ name = "ghost claw", chance = 1960 },
+	{ name = "ghost claw", chance = 1550 },
 	{ name = "bloody tears", chance = 1500 },
-	{ name = "ghost chestplate", chance = 150 },
-	{ name = "spooky hood", chance = 150 },
-	{ name = "pale worm's scalp", chance = 1200 },
-	{ name = "spectral scrap of cloth", chance = 250 },
-	{ name = "fabulous legs", chance = 150 },
-	{ name = "phantasmal axe", chance = 150 },
-	{ name = "ghost backpack", chance = 150 },
-	{ id = 32621, chance = 400 }, -- Ring of souls
-	{ name = "soulful legs", chance = 150 },
+	{ name = "ghost chestplate", chance = 1550 },
+	{ name = "spooky hood", chance = 1550 },
+	{ name = "fabulous legs", chance = 1550 },
+	{ name = "phantasmal axe", chance = 1550 },
+	{ name = "ghost backpack", chance = 1550 },
+	{ id = 32621, chance = 1550 }, -- Ring of souls
+	{ name = "soulful legs", chance = 1550 },
+	{ name = "spectral scrap of cloth", chance = 1550 },
 }
 
 monster.attacks = {
@@ -125,16 +124,16 @@ monster.defenses = {
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 90 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = 90 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 90 },
-	{ type = COMBAT_FIREDAMAGE, percent = 90 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = 50 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 50 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 50 },
+	{ type = COMBAT_FIREDAMAGE, percent = 50 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = 90 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 90 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 90 },
+	{ type = COMBAT_ICEDAMAGE, percent = 50 },
+	{ type = COMBAT_HOLYDAMAGE, percent = 50 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 50 },
 }
 
 monster.immunities = {

@@ -70,6 +70,7 @@ local function creatureSayCallback(npc, creature, type, message)
 	local current = hazard:getPlayerCurrentLevel(player)
 	local maximum = hazard:getPlayerMaxLevel(player)
 
+
 	if MsgContains(message, "hazard") then
 		npcHandler:say("I can change your hazard level to spice up your hunt in the gardens. Your current level is set to " .. current .. ". And your maximum unlocked level is {" .. maximum .. "}. What level would you like to hunt in?", npc, creature)
 		npcHandler:setTopic(playerId, 1)
@@ -88,10 +89,45 @@ local function creatureSayCallback(npc, creature, type, message)
 			end
 		end
 	end
+
+
+
+--[[
+	if MsgContains(message, "mount") then
+		if maximum > 5 then 
+			if player:hasMount(202) == false then
+				player:addMount(202)
+				npcHandler:say("Here is your new mount! The Noxious Ripptor!", npc, creature)
+			else 
+				npcHandler:say("You already have the Ripptor.", npc, creature)
+			end
+		else
+			npcHandler:say("I'm sorry, you do not have the right hazard level.", npc, creature)
+		end
+	end
+
+	if MsgContains(message, "bag") then
+		if maximum == 12 then
+			if (getPlayerStorageValue(player, Storage.PrimalOrdeal.Hazard.PrimalBag) == 1) then
+				player:addItem(39546, 1)
+				setStorageValue(player, Storage.PrimalOrdeal.Hazard.PrimalBag, 2)
+				npcHandler:say("Here is your Primal Bag!", npc, creature)
+			else 
+				npcHandler:say("You already got your Primal Bag.", npc, creature)
+			end
+		else
+			npcHandler:say("I'm sorry, you do not have the right hazard level.", npc, creature)
+		end
+	end
+
+	]]--
+
+
+
 	return true
 end
 
-keywordHandler:addGreetKeyword({ "hi" }, { npcHandler = npcHandler, text = "Hello and welcome in the Gnomprona Gardens. If you want to change your {hazard} level, I 'm who you're looking for." })
+keywordHandler:addGreetKeyword({ "hi" }, { npcHandler = npcHandler, text = "Hello and welcome in the Gnomprona Gardens. Maybe I have a {mount} or {bag} for you. If you want to change your {hazard} level, I 'm who you're looking for." })
 keywordHandler:addAliasKeyword({ "hello" })
 
 npcHandler:setMessage(MESSAGE_GREET, "Hello and welcome in the Gnomprona Gardens")

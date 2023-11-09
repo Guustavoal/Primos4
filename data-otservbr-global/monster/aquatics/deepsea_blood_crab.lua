@@ -10,7 +10,7 @@ monster.outfit = {
 	lookLegs = 0,
 	lookFeet = 0,
 	lookAddons = 0,
-	lookMount = 0,
+	lookMount = 0
 }
 
 monster.raceId = 437
@@ -23,8 +23,9 @@ monster.Bestiary = {
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
-	Locations = "Svargrond Sea Serpent Area, Drefia. There is also one under Rookgaard Academy, however it is unreachable.",
-}
+	Locations = "Svargrond (Sea Serpent Area), Drefia. \z
+		There is also one under Rookgaard Academy, however it is unreachable."
+	}
 
 monster.health = 320
 monster.maxHealth = 320
@@ -35,7 +36,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10,
+	chance = 10
 }
 
 monster.strategiesTarget = {
@@ -50,7 +51,7 @@ monster.flags = {
 	pushable = false,
 	rewardBoss = false,
 	illusionable = true,
-	canPushItems = false,
+	canPushItems = true,
 	canPushCreatures = false,
 	staticAttackChance = 90,
 	targetDistance = 1,
@@ -58,13 +59,13 @@ monster.flags = {
 	healthHidden = false,
 	isBlockable = false,
 	canWalkOnEnergy = false,
-	canWalkOnFire = false,
-	canWalkOnPoison = true,
+	canWalkOnFire = true,
+	canWalkOnPoison = false
 }
 
 monster.light = {
 	level = 0,
-	color = 0,
+	color = 0
 }
 
 monster.voices = {
@@ -73,42 +74,41 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "gold coin", chance = 87000, maxCount = 20 },
-	{ id = 3578, chance = 10450 }, -- fish
-	{ name = "bloody pincers", chance = 6980 },
-	{ name = "chain armor", chance = 5020 },
-	{ name = "brass legs", chance = 2720 },
-	{ name = "white pearl", chance = 620 },
+	{name = "gold coin", chance = 87000, maxCount = 20},
+	{id = 3578, chance = 10450}, -- fish
+	{name = "bloody pincers", chance = 6980},
+	{name = "chain armor", chance = 5020},
+	{name = "brass legs", chance = 2720},
+	{name = "white pearl", chance = 620}
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -115, effect = CONST_ME_DRAWBLOOD },
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -111, effect = CONST_ME_DRAWBLOOD}
 }
 
 monster.defenses = {
 	defense = 28,
-	armor = 28,
-	mitigation = 0.56,
+	armor = 28
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 5 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = -5 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 100 },
-	{ type = COMBAT_FIREDAMAGE, percent = -10 },
-	{ type = COMBAT_LIFEDRAIN, percent = 0 },
-	{ type = COMBAT_MANADRAIN, percent = 0 },
-	{ type = COMBAT_DROWNDAMAGE, percent = 100 },
-	{ type = COMBAT_ICEDAMAGE, percent = 100 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 0 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 0 },
+	{type = COMBAT_PHYSICALDAMAGE, percent = 5},
+	{type = COMBAT_ENERGYDAMAGE, percent = -5},
+	{type = COMBAT_EARTHDAMAGE, percent = 100},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
+	{type = COMBAT_LIFEDRAIN, percent = 0},
+	{type = COMBAT_MANADRAIN, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 100},
+	{type = COMBAT_ICEDAMAGE, percent = 100},
+	{type = COMBAT_HOLYDAMAGE , percent = 0},
+	{type = COMBAT_DEATHDAMAGE , percent = 0}
 }
 
 monster.immunities = {
-	{ type = "paralyze", condition = false },
-	{ type = "outfit", condition = false },
-	{ type = "invisible", condition = false },
-	{ type = "bleed", condition = false },
+	{type = "paralyze", condition = false},
+	{type = "outfit", condition = false},
+	{type = "invisible", condition = false},
+	{type = "bleed", condition = false}
 }
 
 mType:register(monster)

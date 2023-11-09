@@ -10,6 +10,7 @@ monster.outfit = {
 monster.bosstiary = {
 	bossRaceId = 2238,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_60.APiratesTail.TentuglyTimer,
 }
 
 monster.health = 75000
@@ -76,16 +77,16 @@ monster.loot = {
 	{ id = 32623, chance = 4930 }, -- giant topaz
 	{ id = 35571, chance = 4230 }, -- small treasure chest
 	{ id = 35581, chance = 3520 }, -- golden cheese wedge
-	{ id = 35580, chance = 3520 }, -- golden skull
+	{ id = 35580, chance = 6520 }, -- golden skull
 	{ id = 32622, chance = 2820 }, -- giant amethyst
 	{ id = 31911, chance = 2820 }, -- sea horse figurine
 	{ id = 30059, chance = 2110 }, -- giant ruby
 	{ id = 35579, chance = 2110 }, -- golden dustbin
-	{ id = 35576, chance = 2110 }, -- plushie of tentugly
-	{ id = 35611, chance = 2110 }, -- tentacle of tentugly
-	{ id = 35578, chance = 1410 }, -- tiara
-	{ id = 35610, chance = 700 }, -- tentugly's eye
-	{ id = 35612, chance = 700 }, -- tentugly's jaws
+	{ id = 35576, chance = 1000 }, -- plushie of tentugly
+	{ id = 35611, chance = 5110 }, -- tentacle of tentugly
+	{ id = 35578, chance = 3410 }, -- tiara
+	{ id = 35610, chance = 3700 }, -- tentugly's eye
+	{ id = 35612, chance = 3700 }, -- tentugly's jaws
 }
 
 monster.attacks = {

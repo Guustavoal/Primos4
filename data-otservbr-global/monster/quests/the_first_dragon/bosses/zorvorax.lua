@@ -28,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1375,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.FirstDragon.ZorvoraxTimer,
 }
 
 monster.strategiesTarget = {

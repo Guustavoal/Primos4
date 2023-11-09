@@ -13,14 +13,10 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"LeidenHeal",
-	"CultsOfTibiaBossDeath",
-}
-
 monster.bosstiary = {
 	bossRaceId = 1427,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.CultsOfTibia.Barkless.BossTimer,
 }
 
 monster.health = 100000
@@ -60,6 +56,10 @@ monster.flags = {
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
 	canWalkOnPoison = true,
+}
+
+monster.events = {
+	"LeidenHeal",
 }
 
 monster.light = {
@@ -113,7 +113,8 @@ monster.loot = {
 	{ name = "mysterious remains", chance = 100000 },
 	{ name = "cobra crown", chance = 400 },
 	{ name = "silver token", chance = 2500 },
-	{ name = "elven mail", chance = 3000 },
+	{ name = "elven mail", chance = 1000 },
+	{ id = 16154, chance = 400 }, -- Glow Wine
 }
 
 monster.attacks = {

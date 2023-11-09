@@ -13,12 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"GraveDangerBossDeath",
-}
-
-monster.health = 75000
-monster.maxHealth = 75000
+monster.health = 250000
+monster.maxHealth = 250000
 monster.race = "venom"
 monster.corpse = 31599
 monster.speed = 125
@@ -32,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1753,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_20.GraveDanger.Bosses.CountVlarkorthTimer,
 }
 
 monster.strategiesTarget = {
@@ -96,16 +93,16 @@ monster.loot = {
 	{ id = 23533, chance = 5000 }, -- ring of red plasma
 	{ id = 23531, chance = 5000 }, -- ring of green plasma
 	{ name = "skull staff", chance = 7000 },
-	{ name = "yellow gem", chance = 8500 },
+	{ name = "yellow gem", chance = 8500, maxCount = 3  },
 	{ name = "young lich worm", chance = 5500 },
-	{ name = "bear skin", chance = 1600 },
-	{ name = "embrace of nature", chance = 1100 },
+	{ name = "bear skin", chance = 1790 },
+	{ name = "embrace of nature", chance = 1750 },
 	{ name = "giant emerald", chance = 1700 },
 	{ name = "giant ruby", chance = 1900 },
 	{ name = "giant sapphire", chance = 1800 },
 	{ name = "medal of valiance", chance = 1200 },
-	{ name = "terra helmet", chance = 700 },
-	{ name = "final judgement", chance = 400 },
+	{ name = "terra helmet", chance = 1790 },
+	{ name = "final judgement", chance = 500 },
 }
 
 monster.attacks = {

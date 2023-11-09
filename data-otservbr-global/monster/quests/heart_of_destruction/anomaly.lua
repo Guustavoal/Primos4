@@ -16,6 +16,7 @@ monster.outfit = {
 monster.bosstiary = {
 	bossRaceId = 1219,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = 14321,
 }
 
 monster.health = 290000
@@ -107,6 +108,8 @@ monster.loot = {
 	{ id = 23477, chance = 1600, unique = true }, -- void boots
 	{ id = 6553, chance = 1600, unique = true }, -- ruthless axe
 	{ id = 282, chance = 1600, maxCount = 3 }, -- giant shimmering pearl (brown)
+	{ id = 23538, chance = 500 }, -- vibrant egg
+	{ id = 23684, chance = 350 }, -- crackling egg
 }
 
 monster.attacks = {

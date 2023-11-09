@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"FeasterOfSoulsBossDeath",
-}
-
 monster.health = 300000
 monster.maxHealth = 300000
 monster.race = "undead"
@@ -32,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1873,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_30.FeasterOfSouls.FearFeasterTimer,
 }
 
 monster.strategiesTarget = {
@@ -91,10 +88,10 @@ monster.loot = {
 	{ name = "grimace", chance = 5880 },
 	{ name = "amber", chance = 5880 },
 	{ name = "amber with a dragonfly", chance = 3920 },
-	{ name = "ghost claw", chance = 1960 },
+	{ name = "ghost claw", chance = 1050 },
 	{ name = "bloody tears", chance = 1500 },
-	{ name = "ghost chestplate", chance = 150 },
-	{ name = "spooky hood", chance = 150 },
+	{ name = "ghost chestplate", chance = 1550 },
+	{ name = "spooky hood", chance = 1050 },
 }
 
 monster.attacks = {

@@ -28,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1811,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Kilmaresh.UrmahlulluTimer,
 }
 
 monster.strategiesTarget = {

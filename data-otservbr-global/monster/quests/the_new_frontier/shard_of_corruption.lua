@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"ShardOfCorruptionDeath",
-}
-
 monster.health = 600
 monster.maxHealth = 600
 monster.race = "undead"

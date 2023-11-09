@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"InquisitionBossDeath",
-}
-
 monster.bosstiary = {
 	bossRaceId = 403,
 	bossRace = RARITY_BANE,
@@ -79,7 +75,6 @@ monster.voices = {
 
 monster.loot = {
 	{ id = 3031, chance = 100000, maxCount = 200 }, -- gold coin
-	{ id = 8899, chance = 49920 }, -- slightly rusted legs
 	{ id = 7643, chance = 41750, maxCount = 2 }, -- ultimate health potion
 	{ id = 8073, chance = 31010 }, -- spellbook of warding
 	{ id = 8896, chance = 30560 }, -- slightly rusted armor

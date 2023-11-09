@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"DreamCourtsBossDeath",
-}
-
 monster.health = 320000
 monster.maxHealth = 320000
 monster.race = "blood"
@@ -104,9 +100,8 @@ monster.loot = {
 	{ name = "ornate locket", chance = 14290 },
 	{ name = "piggy bank", chance = 89290 },
 	{ name = "platinum coin", chance = 100000, maxCount = 6 },
-	{ name = "pomegranate", chance = 21430 },
+	{ name = "pomegranate", chance = 1430 },
 	{ name = "ring of the sky", chance = 7140 },
-	{ name = "royal star", chance = 57140, maxCount = 194 },
 	{ name = "silver token", chance = 96430, maxCount = 3 },
 	{ name = "skull staff", chance = 21430 },
 	{ name = "soul stone", chance = 14290 },

@@ -16,6 +16,7 @@ monster.outfit = {
 monster.bosstiary = {
 	bossRaceId = 2103,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Kilmaresh.AmenefTimer,
 }
 
 monster.health = 26000
@@ -65,35 +66,34 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "crystal coin", chance = 4494, maxCount = 1 },
-	{ name = "slightly rusted legs", chance = 1392 },
-	{ name = "slightly rusted armor", chance = 1203 },
-	{ name = "guardian halberd", chance = 1139 },
-	{ id = 3097, chance = 886 }, -- dwarven ring
-	{ name = "mastermind potion", chance = 823 },
-	{ name = "doublet", chance = 633 },
-	{ name = "knight armor", chance = 570 },
-	{ id = 23529, chance = 506 }, -- ring of blue plasma
-	{ name = "epee", chance = 443 },
-	{ name = "underworld rod", chance = 443 },
-	{ name = "knight axe", chance = 380 },
-	{ name = "springsprout rod", chance = 380 },
-	{ name = "wand of cosmic energy", chance = 316 },
-	{ name = "wand of inferno", chance = 316 },
-	{ id = 281, chance = 253 }, -- giant shimmering pearl (green)
-	{ name = "spellbook of warding", chance = 253 },
-	{ name = "violet gem", chance = 253 },
-	{ name = "wand of starstorm", chance = 253 },
-	{ name = "amber staff", chance = 190 },
-	{ name = "assassin dagger", chance = 190 },
-	{ name = "blue gem", chance = 190 },
-	{ name = "eye-embroidered veil", chance = 190 },
-	{ name = "warrior's axe", chance = 190 },
-	{ name = "focus cape", chance = 127 },
-	{ name = "noble axe", chance = 127 },
-	{ name = "sacred tree amulet", chance = 127 },
-	{ name = "golden mask", chance = 63 },
-	{ name = "mercenary sword", chance = 63 },
+	{ name = "crystal coin", chance = 44940, maxCount = 3 },
+	{ name = "guardian halberd", chance = 11390 },
+	{ id = 3097, chance = 8860 }, -- dwarven ring
+	{ name = "mastermind potion", chance = 8203 },
+	{ name = "doublet", chance = 6330 },
+	{ name = "knight armor", chance = 5700 },
+	{ id = 23529, chance = 5006 }, -- ring of blue plasma
+	{ name = "epee", chance = 4403 },
+	{ name = "underworld rod", chance = 4043 },
+	{ name = "knight axe", chance = 3800 },
+	{ name = "springsprout rod", chance = 3800 },
+	{ name = "wand of cosmic energy", chance = 3106 },
+	{ name = "wand of inferno", chance = 3016 },
+	{ id = 281, chance = 2503 }, -- giant shimmering pearl (green)
+	{ name = "spellbook of warding", chance = 2503 },
+	{ name = "violet gem", chance = 2503 , maxCount = 3 },
+	{ name = "wand of starstorm", chance = 2503 },
+	{ name = "amber staff", chance = 1900 },
+	{ name = "assassin dagger", chance = 1900 },
+	{ name = "blue gem", chance = 1900 , maxCount = 3 },
+	{ name = "eye-embroidered veil", chance = 500 },
+	{ name = "warrior's axe", chance = 1900 },
+	{ name = "focus cape", chance = 2207 },
+	{ name = "noble axe", chance = 2270 },
+	{ name = "sacred tree amulet", chance = 1207 },
+	{ name = "golden mask", chance = 6003 },
+	{ name = "mercenary sword", chance = 6300 },
+	{ name = "tagralt-inlaid scabbard", chance = 500 },
 }
 
 monster.attacks = {

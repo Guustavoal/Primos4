@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 50000
-monster.maxHealth = 50000
+monster.health = 100000
+monster.maxHealth = 100000
 monster.race = "blood"
 monster.corpse = 28635
 monster.speed = 105
@@ -83,9 +83,10 @@ monster.loot = {
 	{ name = "small diamond", chance = 498, maxCount = 10 },
 	{ name = "blue gem", chance = 2500 },
 	{ id = 3039, chance = 2000 }, -- red gem
-	{ name = "deepling ceremonial dagger", chance = 200 },
-	{ name = "deepling fork", chance = 200 },
+	{ name = "deepling ceremonial dagger", chance = 700 },
+	{ name = "deepling fork", chance = 700 },
 	{ name = "true book of death", chance = 70000 },
+	{ id = 12318, chance = 350 }, -- giant shrimp
 }
 
 monster.attacks = {

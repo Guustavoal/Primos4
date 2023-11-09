@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"SoulwarsBossDeath",
-}
-
 monster.health = 300000
 monster.maxHealth = 300000
 monster.race = "undead"
@@ -32,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1902,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_40.SoulWar.GoshnarCrueltyTimer,
 }
 
 monster.strategiesTarget = {
@@ -101,9 +98,12 @@ monster.loot = {
 	{ name = "cruelty's chest", chance = 2000 },
 	{ name = "cruelty's claw", chance = 2000 },
 	{ name = "figurine of cruelty", chance = 400 },
-	{ name = "spectral saddle", chance = 400 },
-	{ name = "spectral horse tack", chance = 400 },
-	{ name = "bag you desire", chance = 100 },
+	{ name = "spectral horseshoe", chance = 350 },
+	{ name = "spectral saddle", chance = 350 },
+	{ name = "spectral horse tack", chance = 350 },
+	{ name = "the skull of a beast", chance = 350 },
+	{ name = "bracelet of strengthening", chance = 350 },
+	{ name = "bag you desire", chance = 600 },
 }
 
 monster.attacks = {

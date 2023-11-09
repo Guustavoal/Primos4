@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"SecretLibraryBossDeath",
-}
-
 monster.bosstiary = {
 	bossRaceId = 1642,
 	bossRace = RARITY_ARCHFOE,
@@ -116,9 +112,11 @@ monster.loot = {
 	{ name = "piggy bank", chance = 5000 },
 	{ name = "mysterious remains", chance = 5000 },
 	{ name = "energy bar", chance = 5000 },
-	{ name = "library ticket", chance = 500, unique = true },
+	{ name = "library ticket", chance = 1000, unique = true },
 	{ name = "calamity", chance = 500, unique = true },
 	{ name = "spark sphere", chance = 100000 },
+	{ name = "sturdy book", chance = 2000 },
+	{ name = "epaulette", chance = 2000, maxCount = 2},
 }
 
 monster.attacks = {

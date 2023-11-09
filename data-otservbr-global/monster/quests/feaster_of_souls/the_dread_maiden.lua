@@ -13,13 +13,10 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"FeasterOfSoulsBossDeath",
-}
-
 monster.bosstiary = {
 	bossRaceId = 1872,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_30.FeasterOfSouls.DreadMaidenTimer,
 }
 
 monster.health = 300000
@@ -74,15 +71,15 @@ monster.voices = {
 
 monster.loot = {
 	{ id = 3043, chance = 100000, minCount = 1, maxCount = 2 }, -- crystal coin
-	{ id = 32770, chance = 48000 }, -- diamond
+	{ id = 32770, chance = 48000, minCount = 1, maxCount = 5  }, -- diamond
 	{ id = 32769, chance = 48000 }, -- white gem
 	{ id = 23373, chance = 44000, minCount = 3, maxCount = 11 }, -- ultimate mana potion
-	{ id = 32771, chance = 40000, minCount = 1, maxCount = 2 }, -- moonstone
+	{ id = 32771, chance = 40000, minCount = 1, maxCount = 4 }, -- moonstone
 	{ id = 23374, chance = 36000, minCount = 2, maxCount = 9 }, -- ultimate spirit potion
 	{ id = 32772, chance = 20000 }, -- silver hand mirror
 	{ id = 23375, chance = 20000, minCount = 4, maxCount = 9 }, -- supreme health potion
 	{ id = 7443, chance = 16000, minCount = 2, maxCount = 16 }, -- bullseye potion
-	{ id = 32773, chance = 16000 }, -- ivory comb
+	{ id = 32773, chance = 16000, minCount = 1, maxCount = 2  }, -- ivory comb
 	{ id = 32626, chance = 12000 }, -- amber
 	{ id = 7439, chance = 12000, minCount = 6, maxCount = 15 }, -- berserk potion
 	{ id = 7440, chance = 12000, minCount = 4, maxCount = 15 }, -- mastermind potion
@@ -91,11 +88,11 @@ monster.loot = {
 	{ id = 32774, chance = 4000 }, -- cursed bone
 	{ id = 32596, chance = 4000 }, -- dark bell (Silver)
 	{ id = 32622, chance = 4000 }, -- giant amethyst
-	{ id = 32595, chance = 4000 }, -- jagged sickle
+	{ id = 32595, chance = 1500 }, -- jagged sickle
 	{ id = 32591, chance = 4000 }, -- soulforged lantern
-	{ id = 32619, chance = 730 }, -- pair of nightmare boots
-	{ id = 32631, chance = 730 }, -- ghost claw
-	{ id = 32630, chance = 730 }, -- spooky hood
+	{ id = 32619, chance = 1050 }, -- pair of nightmare boots
+	{ id = 32631, chance = 1050 }, -- ghost claw
+	{ id = 32630, chance = 1050 }, -- spooky hood
 }
 
 monster.attacks = {

@@ -12,6 +12,7 @@ monster.outfit = {
 monster.bosstiary = {
 	bossRaceId = 2250,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_90.WithinTheTides.TimiraTimer,
 }
 
 monster.health = 75000
@@ -74,17 +75,17 @@ monster.loot = {
 	{ name = "one of timira's many heads", chance = 2041 },
 	{ name = "giant sapphire", chance = 2041 },
 	{ name = "giant topaz", chance = 2041 },
-	{ name = "dawnfire sherwani", chance = 200 },
-	{ name = "frostflower boots", chance = 200 },
-	{ id = 39233, chance = 200 }, -- enchanted turtle amulet
-	{ name = "midnight tunic", chance = 200 },
-	{ name = "midnight sarong", chance = 200 },
-	{ name = "naga sword", chance = 200 },
-	{ name = "naga axe", chance = 200 },
-	{ name = "naga club", chance = 200 },
-	{ name = "naga wand", chance = 200 },
-	{ name = "naga rod", chance = 200 },
-	{ name = "naga crossbow", chance = 200 },
+	{ name = "dawnfire sherwani", chance = 2000 },
+	{ name = "frostflower boots", chance = 2000 },
+	{ id = 39233, chance = 2000 }, -- enchanted turtle amulet
+	{ name = "midnight tunic", chance = 2000 },
+	{ name = "midnight sarong", chance = 2000 },
+	{ name = "naga sword", chance = 2000 },
+	{ name = "naga axe", chance = 2000 },
+	{ name = "naga club", chance = 12000 },
+	{ name = "naga wand", chance = 2000 },
+	{ name = "naga rod", chance = 2000 },
+	{ name = "naga crossbow", chance = 2000 },
 }
 
 monster.attacks = {

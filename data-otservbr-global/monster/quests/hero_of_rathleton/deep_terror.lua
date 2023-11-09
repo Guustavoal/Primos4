@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"RathletonBossDeath",
-}
-
 monster.bosstiary = {
 	bossRaceId = 1087,
 	bossRace = RARITY_BANE,
@@ -72,7 +68,7 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 21899, chance = 10000, unique = true }, -- glooth glider tubes and wires
+	{ id = 21899, chance = 250, unique = true }, -- glooth glider tubes and wires
 }
 
 monster.attacks = {

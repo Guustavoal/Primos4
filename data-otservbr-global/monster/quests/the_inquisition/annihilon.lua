@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"InquisitionBossDeath",
-}
-
 monster.bosstiary = {
 	bossRaceId = 418,
 	bossRace = RARITY_BANE,

@@ -20,6 +20,10 @@ monster.corpse = 18074
 monster.speed = 180
 monster.manaCost = 0
 
+monster.events = {
+	"DoctorMarrowHealth",
+}
+
 monster.changeTarget = {
 	interval = 4000,
 	chance = 15,

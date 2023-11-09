@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 6000
-monster.maxHealth = 6000
+monster.health = 60000
+monster.maxHealth = 60000
 monster.race = "blood"
 monster.corpse = 27722
 monster.speed = 115
@@ -28,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1561,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U10_80.Grimvale.ShadowpeltTimer,
 }
 
 monster.strategiesTarget = {
@@ -96,7 +97,13 @@ monster.loot = {
 	{ name = "relic sword", chance = 550 },
 	{ name = "silver token", chance = 150 },
 	{ id = 22103, chance = 150 }, -- werebear trophy
-	{ name = "wolf backpack", chance = 100 },
+	{ name = "wolf backpack", chance = 450 },
+	{ name = "foxtail", chance = 1000 },
+	{ id = 19136, chance = 1000 }, -- nail case
+	{ id = 12307, chance = 1000 }, -- harness
+	{ id = 12308, chance = 1000 }, -- reins
+	{ id = 5907, chance = 1000 }, -- slingshot
+	{ id = 12802, chance = 2000, maxCount = 50 }, -- sugar oat
 }
 
 monster.attacks = {

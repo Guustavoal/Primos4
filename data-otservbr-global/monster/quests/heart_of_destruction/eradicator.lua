@@ -16,6 +16,7 @@ monster.outfit = {
 monster.bosstiary = {
 	bossRaceId = 1226,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = 14329,
 }
 
 monster.health = 290000
@@ -99,6 +100,8 @@ monster.loot = {
 	{ id = 3554, chance = 5000, unique = true }, -- steel boots
 	{ id = 8075, chance = 3000, unique = true }, -- spellbook of lost souls
 	{ name = "spark sphere", chance = 100000 },
+	{ id = 23538, chance = 500 }, -- vibrant egg
+	{ id = 23684, chance = 350 }, -- crackling egg
 }
 
 monster.attacks = {

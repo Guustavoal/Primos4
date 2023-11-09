@@ -13,12 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"GraveDangerBossDeath",
-}
-
-monster.health = 75000
-monster.maxHealth = 75000
+monster.health = 250000
+monster.maxHealth = 250000
 monster.race = "venom"
 monster.corpse = 31599
 monster.speed = 125
@@ -32,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1755,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U12_20.GraveDanger.Bosses.BaelocNictrosTimer,
 }
 
 monster.strategiesTarget = {
@@ -89,17 +86,17 @@ monster.loot = {
 	{ id = 23542, chance = 5200 }, -- collar of blue plasma
 	{ id = 23544, chance = 5200 }, -- collar of red plasma
 	{ name = "knight legs", chance = 11000 },
-	{ name = "gold ingot", minCount = 0, maxCount = 1, chance = 10000 },
-	{ name = "violet gem", minCount = 0, maxCount = 1, chance = 10000 },
-	{ name = "yellow gem", minCount = 0, maxCount = 1, chance = 10000 },
+	{ name = "gold ingot", minCount = 0, maxCount = 3, chance = 10000 },
+	{ name = "violet gem", minCount = 0, maxCount = 3, chance = 10000 },
+	{ name = "yellow gem", minCount = 0, maxCount = 3, chance = 10000 },
 	{ id = 23529, chance = 5000 }, -- ring of blue plasma
 	{ id = 23533, chance = 5000 }, -- ring of red plasma
 	{ name = "skull staff", chance = 9000 },
 	{ name = "young lich worm", chance = 5800 },
-	{ name = "embrace of nature", chance = 1400 },
-	{ id = 31592, chance = 1800 }, -- signet ring
-	{ name = "terra helmet", chance = 750 },
-	{ name = "final judgement", chance = 450 },
+	{ name = "embrace of nature", chance = 1750 },
+	{ id = 31592, chance = 2800 }, -- signet ring
+	{ name = "terra helmet", chance = 1750 },
+	{ name = "final judgement", chance = 400 },
 }
 
 monster.attacks = {

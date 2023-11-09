@@ -13,11 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"RathletonBossDeath",
-	"GloothHorror",
-}
-
 monster.health = 25000
 monster.maxHealth = 25000
 monster.race = "venom"
@@ -57,6 +52,10 @@ monster.flags = {
 	canWalkOnPoison = true,
 }
 
+monster.events = {
+	"GloothHorror",
+}
+
 monster.light = {
 	level = 0,
 	color = 0,
@@ -68,7 +67,7 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 21905, chance = 10000 }, -- glooth glider hinge
+	{ id = 21905, chance = 250 }, -- glooth glider hinge
 }
 
 monster.attacks = {

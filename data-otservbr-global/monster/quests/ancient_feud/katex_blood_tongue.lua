@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 6300
-monster.maxHealth = 6300
+monster.health = 63000
+monster.maxHealth = 63000
 monster.race = "blood"
 monster.corpse = 34189
 monster.speed = 100
@@ -28,6 +28,7 @@ monster.changeTarget = {
 monster.bosstiary = {
 	bossRaceId = 1981,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = Storage.Quest.U10_80.Grimvale.KatexTimer,
 }
 
 monster.strategiesTarget = {
@@ -94,11 +95,14 @@ monster.loot = {
 	{ id = 7422, chance = 1110 }, -- jade hammer
 	{ id = 3342, chance = 1000 }, -- war axe
 	{ id = 21168, chance = 1000 }, -- alloy legs
-	{ id = 34258, chance = 560 }, -- red silk flower
+	{ id = 34258, chance = 1000 }, -- red silk flower
 	{ id = 7382, chance = 560 }, -- demonrage sword
 	{ id = 3360, chance = 560 }, -- golden armor
-	{ id = 33778, chance = 360 }, -- raw watermelon tourmaline
-	{ id = 282, chance = 140 }, -- giant shimmering pearl (brown)
+	{ id = 33778, chance = 1000 }, -- raw watermelon tourmaline
+	{ id = 282, chance = 4000 }, -- giant shimmering pearl (brown)
+	{ id = 32103, chance = 1000 }, -- decorative blue sheet
+	{ id = 32104, chance = 1000 }, -- decorative red sheet
+	{ id = 32105, chance = 1000 }, -- decorative green sheet
 }
 
 monster.attacks = {

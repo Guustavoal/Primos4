@@ -10,21 +10,22 @@ monster.outfit = {
 	lookLegs = 0,
 	lookFeet = 0,
 	lookAddons = 0,
-	lookMount = 0,
+	lookMount = 0
 }
 
 monster.raceId = 745
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
-	FirstUnlock = 25,
-	SecondUnlock = 250,
-	CharmsPoints = 15,
+	toKill = 5,
+	FirstUnlock = 2,
+	SecondUnlock = 3,
+	CharmsPoints = 30,
 	Stars = 2,
 	Occurrence = 3,
-	Locations = "Rookgaards central cave in the Mapper Coords125.64125.136104textnew western Troll tunnel, north-west of Carlin during raids and Thais Knights Guild arena during raids on Kingsday Mini World ChangeKingsday.",
-}
+	Locations = "Rookgaard's central cave in the new western Troll tunnel, \z
+		north-west of Carlin during raids and Thais Knights' Guild arena during raids on Kingsday."
+	}
 
 monster.health = 60
 monster.maxHealth = 60
@@ -35,7 +36,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 20,
+	chance = 20
 }
 
 monster.strategiesTarget = {
@@ -59,12 +60,12 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = false,
-	canWalkOnPoison = false,
+	canWalkOnPoison = false
 }
 
 monster.light = {
 	level = 0,
-	color = 0,
+	color = 0
 }
 
 monster.voices = {
@@ -73,40 +74,39 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 3003, chance = 10000 }, -- rope
-	{ name = "gold coin", chance = 58000, maxCount = 12 },
-	{ name = "studded club", chance = 3000 },
-	{ name = "meat", chance = 14000, maxCount = 2 },
+	{id = 3003, chance = 10000}, -- rope
+	{name = "gold coin", chance = 58000, maxCount = 12},
+	{name = "studded club", chance = 3000},
+	{name = "meat", chance = 14000, maxCount = 2}
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -9 },
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -15}
 }
 
 monster.defenses = {
 	defense = 2,
-	armor = 4,
-	mitigation = 0.15,
+	armor = 1
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 0 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = 20 },
-	{ type = COMBAT_EARTHDAMAGE, percent = -10 },
-	{ type = COMBAT_FIREDAMAGE, percent = 0 },
-	{ type = COMBAT_LIFEDRAIN, percent = 0 },
-	{ type = COMBAT_MANADRAIN, percent = 0 },
-	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = 0 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 10 },
-	{ type = COMBAT_DEATHDAMAGE, percent = -10 },
+	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
+	{type = COMBAT_ENERGYDAMAGE, percent = 20},
+	{type = COMBAT_EARTHDAMAGE, percent = -10},
+	{type = COMBAT_FIREDAMAGE, percent = 0},
+	{type = COMBAT_LIFEDRAIN, percent = 0},
+	{type = COMBAT_MANADRAIN, percent = 0},
+	{type = COMBAT_DROWNDAMAGE, percent = 0},
+	{type = COMBAT_ICEDAMAGE, percent = 0},
+	{type = COMBAT_HOLYDAMAGE , percent = 10},
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.immunities = {
-	{ type = "paralyze", condition = false },
-	{ type = "outfit", condition = false },
-	{ type = "invisible", condition = false },
-	{ type = "bleed", condition = false },
+	{type = "paralyze", condition = false},
+	{type = "outfit", condition = false},
+	{type = "invisible", condition = false},
+	{type = "bleed", condition = false}
 }
 
 mType:register(monster)
