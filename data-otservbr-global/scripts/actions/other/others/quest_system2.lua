@@ -82,7 +82,7 @@ local config = {
 	},
 	[3116] = {
 		items = {
-			{ itemId = 3217 },
+			{ itemId = 3212 },
 		},
 		storage = Storage.Postman.Mission09,
 		formerValue = 1,
