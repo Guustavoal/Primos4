@@ -68947,4 +68947,444 @@
 		<attribute key="charges" value="14400"/>
 		<attribute key="weight" value="1000"/>
 	</item>
+	<item id="44066" name="Primos Oberon Box">
+		<attribute key="description" value="falcon bow, falcon wand, falcon rod, falcon battleaxe, falcon mace, falcon shield, falcon longsword"/>
+		<attribute key="weight" value="4200"/>
+	</item>
+	<item id="44111" article="a" name="Primos Forja">
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="44068" name="Primos Gnome box">
+		<attribute key="description" value="Qualquer item Gnome"/>
+		<attribute key="weight" value="4200"/>
+	</item>
+	<item id="44067" name="Primos Random Box">
+		<attribute key="description" value="Item Aleatorio"/>
+		<attribute key="weight" value="4200"/>
+	</item>
+	<item id="44109" article="a" name="Paladin Backpack">
+			<attribute key="containersize" value="35"/>
+			<attribute key="weight" value="1800"/>
+			<attribute key="criticalhitchance" value="10"/>
+			<attribute key="lifeleechamount" value="300"/>
+			<attribute key="lifeleechchance" value="100"/>
+			<attribute key="skillfist" value="5"/>
+			<attribute key="magiclevelpoints" value="5"/>
+			<attribute key="skilldist" value="10"/>
+			<attribute key="manaleechamount" value="300"/>
+			<attribute key="manaleechchance" value="100"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentfire" value="3"/>
+		<attribute key="absorbpercentenergy" value="3"/>
+		<attribute key="absorbpercentpoison" value="3"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentdeath" value="3"/>
+		<attribute key="absorbpercentphysical" value="3"/>
+		<attribute key="absorbpercentmanadrain" value="3"/>
+		<attribute key="absorbpercentholy" value="3"/>
+			<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44108" article="a" name="Knight Backpack">
+			<attribute key="containersize" value="35"/>
+			<attribute key="weight" value="1800"/>
+			<attribute key="criticalhitchance" value="10"/>
+			<attribute key="lifeleechamount" value="300"/>
+			<attribute key="lifeleechchance" value="100"/>
+			<attribute key="skillfist" value="5"/>
+			<attribute key="skillsword" value="10"/>
+			<attribute key="skillaxe" value="10"/>
+			<attribute key="skillclub" value="10"/>
+			<attribute key="skillshield" value="10"/>
+			<attribute key="manaleechamount" value="300"/>
+			<attribute key="manaleechchance" value="100"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentfire" value="3"/>
+		<attribute key="absorbpercentenergy" value="3"/>
+		<attribute key="absorbpercentpoison" value="3"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentdeath" value="3"/>
+		<attribute key="absorbpercentphysical" value="3"/>
+		<attribute key="absorbpercentmanadrain" value="3"/>
+		<attribute key="absorbpercentholy" value="3"/>
+			<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44110" article="a" name="Sorcerer Backpack">
+			<attribute key="containersize" value="35"/>
+			<attribute key="weight" value="1800"/>
+			<attribute key="criticalhitchance" value="10"/>
+			<attribute key="skillfist" value="5"/>
+			<attribute key="magiclevelpoints" value="5"/>
+			<attribute key="manaleechamount" value="300"/>
+			<attribute key="manaleechchance" value="100"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentfire" value="3"/>
+		<attribute key="absorbpercentenergy" value="3"/>
+		<attribute key="absorbpercentpoison" value="3"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentdeath" value="3"/>
+		<attribute key="absorbpercentphysical" value="3"/>
+		<attribute key="absorbpercentmanadrain" value="3"/>
+		<attribute key="absorbpercentholy" value="3"/>
+			<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44107" article="a" name="Druid Backpack">
+			<attribute key="containersize" value="35"/>
+			<attribute key="weight" value="1800"/>
+			<attribute key="criticalhitchance" value="10"/>
+			<attribute key="skillfist" value="5"/>
+			<attribute key="magiclevelpoints" value="5"/>
+			<attribute key="manaleechamount" value="300"/>
+			<attribute key="manaleechchance" value="100"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentfire" value="3"/>
+		<attribute key="absorbpercentenergy" value="3"/>
+		<attribute key="absorbpercentpoison" value="3"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentdeath" value="3"/>
+		<attribute key="absorbpercentphysical" value="3"/>
+		<attribute key="absorbpercentmanadrain" value="3"/>
+		<attribute key="absorbpercentholy" value="3"/>
+			<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44064" article="a" name="Primos Backpack">
+			<attribute key="containersize" value="35"/>
+			<attribute key="weight" value="1800"/>
+			<attribute key="criticalhitchance" value="10"/>
+			<attribute key="lifeleechamount" value="300"/>
+			<attribute key="lifeleechchance" value="100"/>
+			<attribute key="skillfist" value="10"/>
+			<attribute key="magiclevelpoints" value="5"/>
+			<attribute key="skillsword" value="10"/>
+			<attribute key="skillaxe" value="10"/>
+			<attribute key="skillclub" value="10"/>
+			<attribute key="skilldist" value="10"/>
+			<attribute key="skillshield" value="10"/>
+			<attribute key="manaleechamount" value="300"/>
+			<attribute key="manaleechchance" value="100"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentfire" value="3"/>
+		<attribute key="absorbpercentenergy" value="3"/>
+		<attribute key="absorbpercentpoison" value="3"/>
+		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentdeath" value="3"/>
+		<attribute key="absorbpercentphysical" value="3"/>
+		<attribute key="absorbpercentmanadrain" value="3"/>
+		<attribute key="absorbpercentholy" value="3"/>
+			<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+<item id="44080" article="a" name="Dalbens Backpack">
+		<attribute key="description" value="(critical hIt chance 10%)."/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="criticalhitchance" value="10"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44081" article="a" name="Sudden Death Backpack">
+		<attribute key="containersize" value="35"/>
+		<attribute key="description" value="(Protction death +10%)."/>
+		<attribute key="absorbpercentdeath" value="10"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44082" article="a" name="Shenlong Backpack">
+		<attribute key="description" value="(Protection Earth +10%)."/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="absorbpercentpoison" value="10"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44083" article="a" name="Bulma Backpack">
+		<attribute key="description" value="(protection energy 10%)."/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="absorbpercentenergy" value="10"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44084" article="a" name="White King Backpack">
+		<attribute key="description" value="(protection fire +10%)."/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="absorbpercentfire" value="10"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44085" article="a" name="Pikachu Backpack">
+		<attribute key="description" value="(PROTECTION HOLY +10%)"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="absorbpercentholy" value="10"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44086" article="a" name="Mewtwo Backpack">
+		<attribute key="description" value="(protection ice +10%)."/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="absorbpercentice" value="10"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44087" article="a" name="Kyuubi Backpack">
+		<attribute key="description" value="(mana leech chance+100%, mana leech amount +5%)"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="manaleechamount" value="500"/>
+		<attribute key="manaleechchance" value="100"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44088" article="a" name="Alchemist Backpack">
+		<attribute key="description" value="protection manadrain +10%"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="absorbpercentmanadrain" value="10"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44089" article="a" name="Dragon Ball Backpack">
+		<attribute key="description" value="Protection physical +7%"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="absorbpercentphysical" value="10"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44090" article="a" name="Captain America Backpack">
+		<attribute key="description" value="DAMAGE REFLECTION +5, PROTECTION PHYSICAL+5"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="absorbpercentphysical" value="5"/>
+		<attribute key="reflectdamage" value="5"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44091" article="a" name="Majin Boo Backpack">
+		<attribute key="description" value="Regen 5 points in 5s"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="manaticks" value="3000"/>
+		<attribute key="managain" value="5"/>
+		<attribute key="healthticks" value="3000"/>
+		<attribute key="healthgain" value="5"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44092" article="a" name="Luffy Backpack">
+		<attribute key="description" value="Perfect shot +20 at range 4"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="perfectshotdamage" value="20"/>
+		<attribute key="perfectshotrange" value="4"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44093" article="a" name="Iron Man Backpack">
+		<attribute key="description" value="speed +100 protection drown +100%"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="speed" value="20"/>
+		<attribute key="absorbpercentdrown" value="100"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44098" article="a" name="Primos ice Backpack">
+		<attribute key="description" value="(PROTECTION Ice +8%)"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="absorbpercentice" value="8"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44099" article="a" name="Primos Blessed Backpack">
+		<attribute key="description" value="(Reflect +8%)"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="reflectdamage" value="8"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+	<item id="44100" article="a" name="Portella Backpack">
+		<attribute key="description" value="(Protection physical +5%)"/>
+		<attribute key="containersize" value="35"/>
+		<attribute key="absorbpercentphysical" value="5"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
+		<item id="44096" article="a" name="Primos Mount Doll">
+		<attribute key="weight" value="650"/>
+		<attribute key="moveable" value="0"/>
+	</item>
+<item id="44105" name="Primos Boots">
+		<attribute key="weight" value="420"/>
+		<attribute key="description" value="Protect All 5% speed + 100"/>
+		<attribute key="showAttributes" value="9"/>
+		<attribute key="absorbpercentphysical" value="5"/>
+		<attribute key="absorbpercentfire" value="5"/>
+		<attribute key="absorbpercentpoison" value="5"/>
+		<attribute key="absorbpercentenergy" value="5"/>
+		<attribute key="absorbpercentice" value="5"/>
+		<attribute key="absorbpercentholy" value="5"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+		<attribute key="speed" value="100"/>
+		<attribute key="weight" value="750"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+	</item>
+	<item id="44101" article="a" name="Primos amulet">
+		<attribute key="weight" value="420"/>
+		<attribute key="showAttributes" value="9"/>
+		<attribute key="armor" value="5"/>
+		<attribute key="absorbpercentphysical" value="5"/>
+		<attribute key="absorbpercentfire" value="5"/>
+		<attribute key="absorbpercentpoison" value="5"/>
+		<attribute key="absorbpercentenergy" value="5"/>
+		<attribute key="absorbpercentice" value="5"/>
+		<attribute key="absorbpercentholy" value="5"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+		<attribute key="weight" value="750"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+	</item>
+	<item id="44102" article="a" name="Primos knight ring">
+		<attribute key="weight" value="40"/>
+		<attribute key="showAttributes" value="10"/>
+		<attribute key="armor" value="5"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="skillsword" value="3"/>
+		<attribute key="absorbpercentphysical" value="5"/>
+		<attribute key="absorbpercentfire" value="5"/>
+		<attribute key="absorbpercentpoison" value="5"/>
+		<attribute key="absorbpercentenergy" value="5"/>
+		<attribute key="absorbpercentice" value="5"/>
+		<attribute key="absorbpercentholy" value="5"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+	</item>
+	<item id="44104" article="a" name="Primos mage ring">
+		<attribute key="weight" value="40"/>
+		<attribute key="showAttributes" value="9"/>
+		<attribute key="armor" value="5"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="absorbpercentphysical" value="5"/>
+		<attribute key="absorbpercentfire" value="5"/>
+		<attribute key="absorbpercentpoison" value="5"/>
+		<attribute key="absorbpercentenergy" value="5"/>
+		<attribute key="absorbpercentice" value="5"/>
+		<attribute key="absorbpercentholy" value="5"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+	</item>
+	<item id="44103" article="a" name="Primos paladin ring">
+		<attribute key="weight" value="40"/>
+		<attribute key="showAttributes" value="8"/>
+		<attribute key="armor" value="5"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="absorbpercentphysical" value="5"/>
+		<attribute key="absorbpercentfire" value="5"/>
+		<attribute key="absorbpercentpoison" value="5"/>
+		<attribute key="absorbpercentenergy" value="5"/>
+		<attribute key="absorbpercentice" value="5"/>
+		<attribute key="absorbpercentholy" value="5"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+	</item>
+	<item id="44071" article="a" name="Primos Pizza" plural="Primos Pizzas">
+		<attribute key="weight" value="20"/>
+	</item>
+	<item id="8148" article="a" name="Primos teleport scroll">
+		<attribute key="description" value="You bought this item in the Store or gained it as a daily reward. This item cannot be traded."/>
+		<attribute key="charges" value="0"/>
+		<attribute key="weight" value="120"/>
+	</item>
+	<item id="44095" article="a" name="Primos Addon Doll">
+		<attribute key="weight" value="1200"/>
+		<attribute key="moveable" value="0"/>
+	</item>
+	<item id="44065" article="a" name="Roulette Primos Coin">
+		<attribute key="weight" value="2100"/>
+	</item>
+		<item id="23721" article="a" name="Primos Loot">
+		<attribute key="description" value="A infinity bag where you can hold coins."/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="44079" article="a" name="Primos Token">
+		<attribute key="weight" value="100"/>
+	</item>
+	<item id="44106" article="a" name="Primos Seller Token">
+		<attribute key="weight" value="100"/>
+	</item>
+	<item id="44069" name="Primos Lion Box">
+		<attribute key="description" value="Qualquer item Lion"/>
+		<attribute key="weight" value="4200"/>
+	</item>
+		<item id="44070" name="Primos Scarlett Box">
+		<attribute key="description" value="Qualquer item Cobra"/>
+		<attribute key="weight" value="4200"/>
+	</item>
+		<item id="44072" article="a" name="Primos Regeneration">
+		<attribute key="armor" value="5"/>
+		<attribute key="showAttributes" value="10"/>
+		<attribute key="criticalhitdamage" value="10"/>
+		<attribute key="reflectdamage" value="10"/>
+		<attribute key="absorbpercentice" value="7"/>
+		<attribute key="absorbpercentfire" value="7"/>
+		<attribute key="absorbpercentenergy" value="7"/>
+		<attribute key="absorbpercentpoison" value="7"/>
+		<attribute key="absorbpercentdeath" value="7"/>
+		<attribute key="absorbpercentphysical" value="7"/>
+		<attribute key="absorbpercentmanadrain" value="7"/>
+		<attribute key="absorbpercentholy" value="7"/>
+		<attribute key="weight" value="200"/>
+	</item>
+	<item id="31633" article="the" name="Primos Teleport">
+		<attribute key="description" value="It's black and it's supreme"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+		<item id="32583" article="a" name="Primos Roleta ">
+		<attribute key="description" value="The silver is heavily tarnished"/>
+		<attribute key="showCount" value="1"/>
+		<attribute key="weight" value="25"/>
+	</item>
 </items>
