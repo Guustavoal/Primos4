@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 6200
-monster.maxHealth = 6200
+monster.health = 62000
+monster.maxHealth = 62000
 monster.race = "venom"
 monster.corpse = 6061
 monster.speed = 117
@@ -88,8 +88,11 @@ monster.loot = {
 	{ id = 3281, chance = 1110 }, -- giant sword
 	{ id = 7382, chance = 560 }, -- demonrage sword
 	{ id = 3040, chance = 560 }, -- gold nugget
-	{ id = 34258, chance = 360 }, -- red silk flower
-	{ id = 33778, chance = 360 }, -- raw watermelon tourmaline
+	{ id = 34258, chance = 1000 }, -- red silk flower
+	{ id = 33778, chance = 400 }, -- raw watermelon tourmaline
+	{ id = 32103, chance = 1000 }, -- decorative blue sheet
+	{ id = 32104, chance = 1000 }, -- decorative red sheet
+	{ id = 32105, chance = 1000 }, -- decorative green sheet
 }
 
 monster.attacks = {

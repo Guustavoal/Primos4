@@ -65,19 +65,18 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "platinum coin", chance = 10000, maxCount = 8 },
-	{ name = "skull coin", chance = 66670 },
-	{ name = "diamond", chance = 400 },
-	{ name = "silver hand mirror", chance = 1000, maxCount = 2 },
-	{ name = "white gem", chance = 33333 },
+	{ name = "platinum coin", chance = 10000, maxCount = 50 },
+	{ name = "diamond", chance = 4000, minCount = 1, maxCount = 4  },
+	{ name = "silver hand mirror", chance = 5000, maxCount = 4 },
+	{ name = "white gem", chance = 33333, minCount = 1, maxCount = 3  },
 	{ name = "terra rod", chance = 16670 },
 	{ name = "yellow gem", chance = 16670 },
 	{ id = 3039, chance = 16670 }, -- red gem
-	{ name = "necklace of the deep", chance = 1000 },
-	{ name = "wand of starstorm", chance = 1000 },
-	{ name = "wand of cosmic energy", chance = 1000 },
-	{ name = "death toll", chance = 1000 },
-	{ name = "pair of nightmare boots", chance = 230 },
+	{ name = "necklace of the deep", chance = 3400 },
+	{ name = "wand of starstorm", chance = 3400 },
+	{ name = "wand of cosmic energy", chance = 3400 },
+	{ name = "death toll", chance = 2000 },
+	{ name = "pair of nightmare boots", chance = 2030 },
 }
 
 monster.attacks = {

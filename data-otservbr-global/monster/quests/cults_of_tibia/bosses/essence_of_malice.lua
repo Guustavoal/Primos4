@@ -91,6 +91,8 @@ monster.loot = {
 	{ id = 23529, chance = 8762 }, -- ring of blue plasma
 	{ name = "ultimate health potion", chance = 27652, maxCount = 10 },
 	{ name = "blade of corruption", chance = 3775 },
+	{ id = 16251, chance = 1000 }, -- Golem Wrench
+	{ id = 12320, chance = 1000 }, -- Sweet Smelling Bait
 }
 
 monster.attacks = {

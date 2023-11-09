@@ -86,6 +86,34 @@ monster.loot = {
 	{ id = 3318, chance = 770 }, -- knight axe
 	{ id = 7413, chance = 390 }, -- titan axe
 	{ id = 7401, chance = 520 }, -- minotaur trophy
+	{ name = "gold token", chance = 20000, maxCount = 3},
+	{ name = "silver token", chance = 20000, maxCount= 3 },
+	{ name = "crystal coin", chance = 6780, maxCount = 30},
+	{ name = "tinged pot", chance = 1690 },
+	{ name = "gnome shield", chance = 2080 },
+	{ name = "gnome helmet", chance = 2390 },
+	{ name = "magma coat", chance = 3390 },
+	{ name = "gnome sword", chance = 3390 },
+	{ name = "candle stump", chance = 3390 },
+	{ name = "mallet handle", chance = 3390 },
+	{ name = "plan for a makeshift armour", chance = 1000 },
+	{ name = "gnome armor", chance = 2090 },
+	{ name = "mallet pommel", chance = 3390 },
+	{ name = "mallet head", chance = 3390 },
+	{ name = "gnome legs", chance = 3170 },
+	{ id = 27657, chance = 1000 }, -- crude wood plans
+	{ id = 8054, chance = 250 }, -- Earthborn Titan Armor
+	{ name = "maxilla maximus", chance = 1000 },
+	{ name = "fireborn giant armor", chance = 400 },
+	{ name = "Scorpion Sceptre", chance = 1000 },
+	{ id = 3331, chance = 500 }, -- Ravager's Axe
+	{ id = 16155, chance = 1000 }, -- decorative ribbon
+	{ id = 16252, chance = 1000 }, -- gnomish voucher type MB
+	{ id = 16253, chance = 1000 }, -- gnomish voucher type MA1
+	{ id = 16254, chance = 1000 }, -- gnomish voucher type MA2
+	{ id = 16255, chance = 1000 }, -- gnomish voucher type CB
+	{ id = 16256, chance = 1000 }, -- gnomish voucher type CA1
+	{ id = 16257, chance = 1000 }, -- gnomish voucher type CA2
 }
 
 monster.attacks = {

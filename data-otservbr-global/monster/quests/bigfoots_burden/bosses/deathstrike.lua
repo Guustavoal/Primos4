@@ -80,10 +80,17 @@ monster.loot = {
 	{ id = 16175, chance = 8430 }, -- shiny blade
 	{ id = 16162, chance = 6570 }, -- mycological mace
 	{ id = 16160, chance = 10480 }, -- crystalline sword
-	{ id = 16136, chance = 100000 }, -- deathstrike's snippet
+	{ id = 16136, chance = 400 }, -- deathstrike's snippet
+	{ id = 16155, chance = 400 }, -- decorative ribbon
 	{ id = 16163, chance = 12380 }, -- crystal crossbow
 	{ id = 16161, chance = 7430 }, -- crystalline axe
 	{ id = 16164, chance = 11430 }, -- mycological bow
+	{ id = 16252, chance = 1000 }, -- gnomish voucher type MB
+	{ id = 16253, chance = 1000 }, -- gnomish voucher type MA1
+	{ id = 16254, chance = 1000 }, -- gnomish voucher type MA2
+	{ id = 16255, chance = 1000 }, -- gnomish voucher type CB
+	{ id = 16256, chance = 1000 }, -- gnomish voucher type CA1
+	{ id = 16257, chance = 1000 }, -- gnomish voucher type CA2
 }
 
 monster.attacks = {
@@ -97,7 +104,7 @@ monster.defenses = {
 	defense = 35,
 	armor = 25,
 	--	mitigation = ???,
-	{ name = "combat", interval = 1000, chance = 25, type = COMBAT_HEALING, minDamage = 1000, maxDamage = 5500, effect = CONST_ME_MAGIC_BLUE, target = false },
+	{ name = "combat", interval = 1000, chance = 25, type = COMBAT_HEALING, minDamage = 1000, maxDamage = 3500, effect = CONST_ME_MAGIC_BLUE, target = false },
 }
 
 monster.elements = {

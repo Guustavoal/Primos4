@@ -113,7 +113,8 @@ monster.loot = {
 	{ name = "mysterious remains", chance = 100000 },
 	{ name = "cobra crown", chance = 400 },
 	{ name = "silver token", chance = 2500 },
-	{ name = "elven mail", chance = 3000 },
+	{ name = "elven mail", chance = 1000 },
+	{ id = 16154, chance = 400 }, -- Glow Wine
 }
 
 monster.attacks = {

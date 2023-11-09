@@ -22,8 +22,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 500000
-monster.maxHealth = 500000
+monster.health = 300000
+monster.maxHealth = 300000
 monster.race = "undead"
 monster.corpse = 23567
 monster.speed = 60
@@ -71,7 +71,24 @@ monster.voices = {
 	chance = 10,
 }
 
-monster.loot = {}
+monster.loot = {
+	{ id = 3035, chance = 100000, maxCount = 20 }, -- platinum coin
+	{ id = 16119, chance = 10000, maxCount = 3 }, -- blue crystal shard
+	{ id = 22721, chance = 100000, maxCount = 3  }, -- gold token
+	{ id = 3032, chance = 10000, maxCount = 10 }, -- small emerald
+	{ id = 281, chance = 1000 }, -- giant shimmering pearl (green)
+	{ id = 3039, chance = 1000 }, -- red gem
+	{ id = 3026, chance = 10000, maxCount = 5 }, -- white pearl
+	{ id = 3033, chance = 10000, maxCount = 10 }, -- small amethyst
+	{ id = 9058, chance = 800, maxCount = 10  }, -- gold ingot
+	{name = "magic sulphur", chance = 102},
+	{id = 5909, chance = 35000, maxCount = 10}, -- white piece of cloth
+	{ id = 22516, chance = 10000, maxCount = 4 }, -- silver token
+	{ id = 5891, chance = 7692 }, -- enchanted chicken wing
+	{ id = 9068, chance = 2000 }, -- Yalahari Figurine
+
+
+}
 
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1500 },

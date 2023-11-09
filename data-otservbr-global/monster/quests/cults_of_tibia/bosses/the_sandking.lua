@@ -22,8 +22,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 50000
-monster.maxHealth = 50000
+monster.health = 300000
+monster.maxHealth = 300000
 monster.race = "venom"
 monster.corpse = 25866
 monster.speed = 125
@@ -110,6 +110,8 @@ monster.loot = {
 	{ id = 16161, chance = 7030 }, -- crystalline axe
 	{ id = 3341, chance = 200 }, -- arcane staff
 	{ name = "heart of the mountain", chance = 400 },
+	{ id = 12801, chance = 1000 }, -- golden can of oil
+	{ id = 12550, chance = 1000 }, -- golden fir cone
 }
 
 monster.attacks = {

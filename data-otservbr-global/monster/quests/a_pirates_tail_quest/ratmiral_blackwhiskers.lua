@@ -23,7 +23,6 @@ monster.manaCost = 0
 monster.events = {
 	"RatmiralBlackwhiskersDeath",
 }
-
 monster.changeTarget = {
 	interval = 4000,
 	chance = 10,
@@ -85,7 +84,7 @@ monster.loot = {
 	{ id = 23373, chance = 25000, minCount = 1, maxCount = 19 }, -- ultimate mana potion
 	{ id = 7440, chance = 22000, minCount = 1, maxCount = 9 }, -- mastermind potion
 	{ id = 7443, chance = 20000, minCount = 1, maxCount = 9 }, -- bullseye potion
-	{ id = 35572, chance = 17000, minCount = 3, maxCount = 102 }, -- pirate coin
+	{ id = 35572, chance = 17000, minCount = 3, maxCount = 152 }, -- pirate coin
 	{ id = 7439, chance = 16000, minCount = 1, maxCount = 9 }, -- berserk potion
 	{ id = 35613, chance = 8000 }, -- ratmiral's hat
 	{ id = 35571, chance = 7140 }, -- small treasure chest
@@ -93,20 +92,20 @@ monster.loot = {
 	{ id = 35579, chance = 3570 }, -- golden dustbin
 	{ id = 32626, chance = 2680 }, -- amber
 	{ id = 35581, chance = 2680 }, -- golden cheese wedge
-	{ id = 35595, chance = 2680 }, -- soap
-	{ id = 35695, chance = 1790 }, -- scrubbing brush
+	{ id = 35595, chance = 2000 }, -- soap
+	{ id = 35695, chance = 2000 }, -- scrubbing brush
 	{ id = 35614, chance = 890 }, -- cheesy membership card
-	{ id = 35523, chance = 890 }, -- exotic amulet
-	{ id = 35515, chance = 890 }, -- throwing axe
-	{ id = 35517, chance = 890 }, -- bast legs
-	{ id = 35516, chance = 890 }, -- exotic legs
-	{ id = 35518, chance = 890 }, -- jungle bow
-	{ id = 35524, chance = 890 }, -- jungle quiver
-	{ id = 35514, chance = 890 }, -- jungle flail
-	{ id = 35521, chance = 890 }, -- jungle rod
-	{ id = 35522, chance = 890 }, -- jungle wand
-	{ id = 35519, chance = 890 }, -- makeshift boots
-	{ id = 35520, chance = 890 }, -- make-do boots
+	{ id = 35523, chance = 2000 }, -- exotic amulet
+	{ id = 35515, chance = 2000 }, -- throwing axe
+	{ id = 35517, chance = 2000 }, -- bast legs
+	{ id = 35516, chance = 2000 }, -- exotic legs
+	{ id = 35518, chance = 2000 }, -- jungle bow
+	{ id = 35524, chance = 2000 }, -- jungle quiver
+	{ id = 35514, chance = 2000 }, -- jungle flail
+	{ id = 35521, chance = 2000 }, -- jungle rod
+	{ id = 35522, chance = 2000 }, -- jungle wand
+	{ id = 35519, chance = 2000 }, -- makeshift boots
+	{ id = 35520, chance = 2000 }, -- make-do boots
 }
 
 monster.attacks = {

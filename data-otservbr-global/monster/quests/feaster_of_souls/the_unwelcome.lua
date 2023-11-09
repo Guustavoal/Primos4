@@ -19,6 +19,7 @@ monster.events = {
 
 monster.health = 300000
 monster.maxHealth = 300000
+monster.maxHealth = 150000
 monster.race = "undead"
 monster.corpse = 32741
 monster.speed = 125
@@ -72,7 +73,7 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "crystal coin", chance = 96080, maxCount = 2 },
+	{ name = "crystal coin", chance = 96080, maxCount = 4 },
 	{ name = "white gem", chance = 52940, maxCount = 2 },
 	{ name = "moonstone", chance = 52940, maxCount = 2 },
 	{ name = "ultimate mana potion", chance = 43140, maxCount = 6 },
@@ -93,10 +94,10 @@ monster.loot = {
 	{ name = "amber with a dragonfly", chance = 3920 },
 	{ name = "ghost claw", chance = 1960 },
 	{ name = "bloody tears", chance = 1500 },
-	{ name = "ghost chestplate", chance = 150 },
-	{ name = "spooky hood", chance = 150 },
-	{ name = "fabulous legs", chance = 150 },
-	{ name = "soulful legs", chance = 150 },
+	{ name = "ghost chestplate", chance = 1550 },
+	{ name = "spooky hood", chance = 1050 },
+	{ name = "fabulous legs", chance = 1550 },
+	{ name = "soulful legs", chance = 1550 },
 }
 
 monster.attacks = {
@@ -119,16 +120,16 @@ monster.defenses = {
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 90 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = 90 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 90 },
-	{ type = COMBAT_FIREDAMAGE, percent = 90 },
-	{ type = COMBAT_LIFEDRAIN, percent = 90 },
-	{ type = COMBAT_MANADRAIN, percent = 90 },
-	{ type = COMBAT_DROWNDAMAGE, percent = 90 },
-	{ type = COMBAT_ICEDAMAGE, percent = 90 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 90 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 90 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = 50 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 50 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 60 },
+	{ type = COMBAT_FIREDAMAGE, percent = 60 },
+	{ type = COMBAT_LIFEDRAIN, percent = 60 },
+	{ type = COMBAT_MANADRAIN, percent = 60 },
+	{ type = COMBAT_DROWNDAMAGE, percent = 50 },
+	{ type = COMBAT_ICEDAMAGE, percent = 50 },
+	{ type = COMBAT_HOLYDAMAGE, percent = 50 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 50 },
 }
 
 monster.immunities = {

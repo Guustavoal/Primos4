@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 6300
-monster.maxHealth = 6300
+monster.health = 63000
+monster.maxHealth = 63000
 monster.race = "blood"
 monster.corpse = 31409
 monster.speed = 190
@@ -91,7 +91,10 @@ monster.loot = {
 	{ id = 8074, chance = 550 }, -- spellbook of mind control
 	{ id = 21168, chance = 550 }, -- alloy legs
 	{ id = 33778, chance = 360 }, -- raw watermelon tourmaline
-	{ id = 34258, chance = 360 }, -- red silk flower
+	{ id = 34258, chance = 1000 }, -- red silk flower
+	{ id = 32103, chance = 1000 }, -- decorative blue sheet
+	{ id = 32104, chance = 1000 }, -- decorative red sheet
+	{ id = 32105, chance = 1000 }, -- decorative green sheet
 }
 
 monster.attacks = {

@@ -77,7 +77,6 @@ monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 58 },
 	{ name = "mastermind potion", chance = 100000 },
 	{ name = "stone skin amulet", chance = 100000 },
-	{ id = 27713, chance = 100000 }, -- heavy crystal fragment
 	{ name = "wand of inferno", chance = 72920 },
 	{ name = "violet crystal shard", chance = 64580 },
 	{ name = "ultimate health potion", chance = 62500, maxCount = 18 },
@@ -89,8 +88,6 @@ monster.loot = {
 	{ name = "silver token", chance = 33330 },
 	{ name = "small emerald", chance = 20830 },
 	{ name = "huge chunk of crude iron", chance = 20830 },
-	{ name = "slightly rusted shield", chance = 18750 },
-	{ name = "slightly rusted helmet", chance = 16670 },
 	{ id = 3039, chance = 14580 }, -- red gem
 	{ name = "luminous orb", chance = 14580 },
 	{ name = "longing eyes", chance = 14580 },
@@ -112,6 +109,10 @@ monster.loot = {
 	{ name = "slimy leg", chance = 4170 },
 	{ name = "badger boots", chance = 4170 },
 	{ name = "spellbook of warding", chance = 2080 },
+	{ name = "gnome armor", chance = 1090 },
+	{ name = "candle stump", chance = 390 },
+	{ name = "plan for a makeshift armour", chance = 1000 },
+	{ name = "mallet head", chance = 3390 },
 }
 
 monster.attacks = {

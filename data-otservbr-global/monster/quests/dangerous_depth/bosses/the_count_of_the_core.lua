@@ -75,7 +75,6 @@ monster.voices = {
 
 monster.loot = {
 	{ name = "platinum coin", chance = 100000, maxCount = 54 },
-	{ id = 27713, chance = 100000, maxCount = 7 }, -- heavy crystal fragment
 	{ name = "mastermind potion", chance = 100000, maxCount = 3 },
 	{ name = "stone skin amulet", chance = 100000 },
 	{ name = "amber staff", chance = 100000 },
@@ -94,13 +93,11 @@ monster.loot = {
 	{ name = "fire sword", chance = 20000 },
 	{ id = 3039, chance = 20000 }, -- red gem
 	{ name = "green gem", chance = 20000 },
-	{ name = "slightly rusted helmet", chance = 20000 },
 	{ name = "gold token", chance = 20000 },
 	{ name = "magic sulphur", chance = 40680 },
 	{ id = 27626, chance = 23730 }, -- chitinous mouth (count)
 	{ name = "blue gem", chance = 22030 },
 	{ name = "small emerald", chance = 18640 },
-	{ name = "slightly rusted shield", chance = 16950 },
 	{ name = "small ruby", chance = 13560 },
 	{ name = "small amethyst", chance = 11860 },
 	{ name = "luminous orb", chance = 8470 },
@@ -109,13 +106,15 @@ monster.loot = {
 	{ name = "gnome shield", chance = 5080 },
 	{ name = "gnome helmet", chance = 3390 },
 	{ name = "magma coat", chance = 3390 },
-	{ name = "gnome sword", chance = 3390 },
+	{ name = "gnome sword", chance = 2390 },
+	{ name = "candle stump", chance = 800 },
 	{ name = "violet gem", chance = 3390 },
+	{ name = "mallet handle", chance = 3390 },
 	{ name = "crystalline armor", chance = 1690 },
 	{ name = "giant sword", chance = 1690 },
 	{ name = "guardian axe", chance = 1690 },
 	{ name = "twiceslicer", chance = 1690 },
-	{ name = "tinged pot", chance = 1690 },
+	{ name = "tinged pot", chance = 1000 },
 }
 
 monster.attacks = {

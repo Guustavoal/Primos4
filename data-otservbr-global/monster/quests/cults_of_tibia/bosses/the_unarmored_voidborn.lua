@@ -22,8 +22,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 250000
-monster.maxHealth = 250000
+monster.health = 500000
+monster.maxHealth = 500000
 monster.race = "undead"
 monster.corpse = 26133
 monster.speed = 125
@@ -102,6 +102,8 @@ monster.loot = {
 	{ name = "shadow sceptre", chance = 7890 },
 	{ id = 23533, chance = 14542 }, -- ring of red plasma
 	{ name = "terra hood", chance = 16892 },
+	{ id = 12260, chance = 1000 }, -- Hunting Horn 
+	{ id = 12519, chance = 1000 }, -- Slug Drug
 }
 
 monster.attacks = {
