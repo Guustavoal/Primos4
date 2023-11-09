@@ -102,28 +102,23 @@ monster.loot = {
 	{ name = "mysterious remains", chance = 93750 },
 	{ name = "piggy bank", chance = 93750 },
 	{ name = "platinum coin", chance = 100000, maxCount = 9 },
-	{ name = "pomegranate", chance = 16670 },
+	{ name = "pomegranate", chance = 1670 },
 	{ name = "ring of the sky", chance = 12500 },
-	{ name = "royal star", chance = 50000, maxCount = 199 },
 	{ name = "silver token", chance = 100000, maxCount = 2 },
 	{ name = "skull staff", chance = 6250 },
 	{ name = "soul stone", chance = 16670 },
-	{ name = "summerblade", chance = 3130 },
+	{ name = "summerblade", chance = 530 },
 	{ name = "supreme health potion", chance = 66670, maxCount = 14 },
 	{ name = "ultimate mana potion", chance = 56250, maxCount = 20 },
 	{ name = "ultimate spirit potion", chance = 66670, maxCount = 5 },
 	{ name = "violet gem", chance = 3130 },
-	{ name = "winterblade", chance = 6250 },
+	{ name = "winterblade", chance = 550 },
 	{ name = "yellow gem", chance = 34380, maxCount = 2 },
 }
 
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000 },
-	{ name = "combat", interval = 3600, chance = 17, type = COMBAT_FIREDAMAGE, minDamage = -500, maxDamage = -1500, length = 5, spread = 2, effect = CONST_ME_FIREAREA, target = false },
 	{ name = "combat", interval = 4100, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -500, maxDamage = -2000, length = 8, spread = 0, effect = CONST_ME_FIREAREA, target = false },
-	{ name = "combat", interval = 4700, chance = 17, type = COMBAT_ICEDAMAGE, minDamage = -500, maxDamage = -1500, length = 5, spread = 2, effect = CONST_ME_ICEATTACK, target = false },
-	{ name = "combat", interval = 3100, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -500, maxDamage = -2000, length = 8, spread = 0, effect = CONST_ME_ICETORNADO, target = false },
-	{ name = "speed", interval = 2000, chance = 15, speedChange = -700, radius = 1, effect = CONST_ME_MAGIC_RED, target = true, duration = 30000 },
 }
 
 monster.defenses = {

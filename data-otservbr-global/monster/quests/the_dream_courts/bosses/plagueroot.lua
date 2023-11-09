@@ -110,7 +110,7 @@ monster.loot = {
 	{ name = "bullseye potion", chance = 20410 },
 	{ name = "berserk potion", chance = 16329 },
 	{ name = "skull staff", chance = 16329 },
-	{ name = "pomegranate", chance = 16329 },
+	{ name = "pomegranate", chance = 1329 },
 	{ id = 23542, chance = 14290 }, -- collar of blue plasma
 	{ name = "blue gem", chance = 12240 },
 	{ name = "green gem", chance = 12240 },
@@ -123,15 +123,16 @@ monster.loot = {
 	{ name = "chaos mace", chance = 6120 },
 	{ name = "plagueroot offshoot", chance = 6120 },
 	{ name = "magic sulphur", chance = 6120 },
+	{ name = "living vine bow", chance = 880 },
+	{ name = "giant emerald", chance = 4080 },
+	{ name = "soul stone", chance = 4080 },
+	{ name = "turquoise tendril lantern", chance = 540 },
 	{ name = "living vine bow", chance = 4080 },
 	{ name = "giant emerald", chance = 4080 },
 	{ name = "soul stone", chance = 4080 },
-	{ name = "living armor", chance = 4080 },
-	{ name = "turquoise tendril lantern", chance = 2040 },
-	{ name = "ring of the sky", chance = 2040 },
-	{ name = "abyss hammer", chance = 2040 },
-	{ id = 3341, chance = 3130 }, -- arcane staff
 }
+
+
 
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 100, skill = 210, attack = -560 },

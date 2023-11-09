@@ -88,21 +88,21 @@ monster.loot = {
 	{ id = 16121, chance = 100000, maxCount = 3 }, -- green crystal shard
 	{ id = 16120, chance = 100000, maxCount = 3 }, -- violet crystal shard
 	{ id = 7439, chance = 100000 }, -- berserk potion
-	{ id = 3041, chance = 100000 }, -- blue gem
-	{ id = 3038, chance = 100000 }, -- green gem
+	{ id = 3041, chance = 100000, maxCount = 3  }, -- blue gem
+	{ id = 3038, chance = 100000, maxCount = 3  }, -- green gem
 	{ id = 12306, chance = 2000 }, -- leather whip
 	{ id = 11454, chance = 2000 }, -- luminous orb
 	{ id = 5904, chance = 2000 }, -- magic sulphur
 	{ id = 821, chance = 1000 }, -- magma legs
 	{ id = 7440, chance = 2000 }, -- mastermind potion
 	{ id = 3098, chance = 2000 }, -- ring of healing
-	{ id = 3036, chance = 2000 }, -- violet gem
-	{ id = 3037, chance = 2000 }, -- yellow gem
+	{ id = 3036, chance = 2000, maxCount = 3  }, -- violet gem
+	{ id = 3037, chance = 2000, maxCount = 3  }, -- yellow gem
 	{ id = 10323, chance = 1000 }, -- guardian boots
-	{ id = 3324, chance = 1000 }, -- skull staff
-	{ id = 3081, chance = 1000 }, -- stone skin amulet
+	{ id = 3324, chance = 2000 }, -- skull staff
+	{ id = 3081, chance = 2000 }, -- stone skin amulet
 	{ id = 10323, chance = 1000 }, -- guardian boots
-	{ id = 24956, chance = 500, unique = true }, -- part of a rune
+	{ id = 24956, chance = 1000, unique = true }, -- part of a rune
 	{ id = 8076, chance = 1000 }, -- spellscroll of prophecies
 	{ id = 5809, chance = 100, unique = true }, -- soul stone
 	{ id = 3439, chance = 100 }, -- phoenix shield

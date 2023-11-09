@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Realityquake")
 local monster = {}
 
 monster.description = "Realityquake"
-monster.experience = 20000
+monster.experience = 40000
 monster.outfit = {
 	lookTypeEx = 1949,
 }
@@ -10,10 +10,11 @@ monster.outfit = {
 monster.bosstiary = {
 	bossRaceId = 1218,
 	bossRace = RARITY_ARCHFOE,
+	storageCooldown = 14325,
 }
 
-monster.health = 110000
-monster.maxHealth = 110000
+monster.health = 210000
+monster.maxHealth = 210000
 monster.race = "venom"
 monster.corpse = 23567
 monster.speed = 200
@@ -87,6 +88,8 @@ monster.loot = {
 	{ id = 3073, chance = 8000 }, -- wand of cosmic energy
 	{ id = 23531, chance = 6000 }, -- ring of green plasma
 	{ id = 23533, chance = 6000 }, -- ring of red plasma
+	{ id = 23538, chance = 500 }, -- vibrant egg
+	{ id = 23684, chance = 350 }, -- crackling egg
 }
 
 monster.attacks = {

@@ -79,17 +79,17 @@ monster.loot = {
 	{ id = 22516, chance = 1000000 }, -- silver token
 	{ id = 10389, chance = 3000 }, -- sai
 	{ id = 16117, chance = 1820 }, -- muck rod
-	{ id = 16125, chance = 23000, maxCount = 6 }, -- cyan crystal fragment
-	{ id = 16126, chance = 23000, maxCount = 6 }, -- red crystal fragment
-	{ id = 16127, chance = 23000, maxCount = 6 }, -- green crystal fragment
-	{ id = 3026, chance = 12000, maxCount = 8 }, -- white pearl
-	{ id = 3029, chance = 12000, maxCount = 9 }, -- small sapphire
+	{ id = 16125, chance = 23000, maxCount = 16 }, -- cyan crystal fragment
+	{ id = 16126, chance = 23000, maxCount = 16 }, -- red crystal fragment
+	{ id = 16127, chance = 23000, maxCount = 16 }, -- green crystal fragment
+	{ id = 3026, chance = 12000, maxCount = 28 }, -- white pearl
+	{ id = 3029, chance = 12000, maxCount = 19 }, -- small sapphire
 	{ id = 3031, chance = 98000, maxCount = 200 }, -- gold coin
-	{ id = 3033, chance = 10000, maxCount = 5 }, -- small amethyst
+	{ id = 3033, chance = 10000, maxCount = 15 }, -- small amethyst
 	{ id = 3035, chance = 8000, maxCount = 58 }, -- platinum coin
-	{ id = 22727, chance = 800 }, -- rift lance
-	{ id = 22759, chance = 500, unique = true }, -- plague bite
-	{ id = 22866, chance = 800 }, -- rift bow
+	{ id = 22727, chance = 2800 }, -- rift lance
+	{ id = 22759, chance = 1000, unique = true }, -- plague bite
+	{ id = 22866, chance = 2800 }, -- rift bow
 	{ id = 22867, chance = 800 }, -- rift crossbow
 	{ id = 6499, chance = 11000 }, -- demonic essence
 	{ id = 7386, chance = 5000 }, -- mercenary sword
@@ -98,7 +98,7 @@ monster.loot = {
 	{ id = 814, chance = 5000 }, -- terra amulet
 	{ id = 7643, chance = 23000, maxCount = 15 }, -- ultimate health potion
 	{ id = 8073, chance = 4000 }, -- spellbook of warding
-	{ id = 9057, chance = 10000, maxCount = 8 }, -- small topaz
+	{ id = 9057, chance = 10000, maxCount = 18 }, -- small topaz
 }
 
 monster.attacks = {

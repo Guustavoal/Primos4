@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 3300
-monster.maxHealth = 3300
+monster.health = 53000
+monster.maxHealth = 53000
 monster.race = "blood"
 monster.corpse = 22067
 monster.speed = 125
@@ -93,7 +93,13 @@ monster.loot = {
 	{ name = "badger boots", chance = 400 },
 	{ name = "underworld rod", chance = 400 },
 	{ name = "wand of voodoo", chance = 400 },
-	{ name = "wolf backpack", chance = 250 },
+	{ name = "wolf backpack", chance = 400 },
+	{ name = "foxtail", chance = 1000 },
+	{ id = 19136, chance = 1000 }, -- nail case
+	{ id = 12307, chance = 1000 }, -- harness
+	{ id = 12308, chance = 1000 }, -- reins
+	{ id = 5907, chance = 1000 }, -- slingshot
+	{ id = 12802, chance = 2000, maxCount = 50 }, -- sugar oat
 }
 
 monster.attacks = {

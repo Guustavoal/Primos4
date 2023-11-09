@@ -90,7 +90,8 @@ monster.loot = {
 	{ name = "dreaded cleaver", chance = 30000 },
 	{ name = "frozen lightning", chance = 30000 },
 	{ name = "sinister book", chance = 1000 },
-	{ name = "wand of dimensions", chance = 10 },
+	{ name = "epaulette", chance = 1000 },
+	{ name = "wand of dimensions", chance = 250 },
 }
 
 monster.attacks = {

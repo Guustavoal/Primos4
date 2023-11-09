@@ -82,6 +82,7 @@ monster.loot = {
 	{ name = "ornate legs", chance = 740 },
 	{ name = "ornate mace", chance = 1500 },
 	{ name = "ornate shield", chance = 1400 },
+	{ id = 14021, chance = 500, unique = true }, -- Jaul's Pearl
 }
 
 monster.attacks = {

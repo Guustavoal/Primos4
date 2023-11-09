@@ -72,7 +72,7 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 21899, chance = 10000, unique = true }, -- glooth glider tubes and wires
+	{ id = 21899, chance = 250, unique = true }, -- glooth glider tubes and wires
 }
 
 monster.attacks = {

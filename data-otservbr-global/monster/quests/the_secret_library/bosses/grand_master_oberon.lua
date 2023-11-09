@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 60000
-monster.maxHealth = 60000
+monster.health = 80000
+monster.maxHealth = 80000
 monster.race = "blood"
 monster.corpse = 28625
 monster.speed = 115
@@ -69,18 +69,18 @@ monster.loot = {
 	{ name = "brass shield", chance = 30000, maxCount = 1 },
 	{ name = "spatial warp almanac", chance = 25000, maxCount = 1 },
 	{ name = "viking helmet", chance = 23000, maxCount = 1 },
-	{ name = "falcon battleaxe", chance = 500, maxCount = 1 },
-	{ name = "falcon longsword", chance = 500, maxCount = 1 },
-	{ name = "falcon mace", chance = 500, maxCount = 1 },
-	{ name = "grant of arms", chance = 500, maxCount = 1 },
-	{ name = "falcon bow", chance = 350, maxCount = 1 },
-	{ name = "falcon circlet", chance = 350, maxCount = 1 },
-	{ name = "falcon coif", chance = 350, maxCount = 1 },
-	{ name = "falcon rod", chance = 350, maxCount = 1 },
-	{ name = "falcon wand", chance = 350, maxCount = 1 },
-	{ name = "falcon shield", chance = 200, maxCount = 1 },
-	{ name = "falcon greaves", chance = 200, maxCount = 1 },
-	{ name = "falcon plate", chance = 200, maxCount = 1 },
+	{ name = "falcon battleaxe", chance = 400, maxCount = 1 },
+	{ name = "falcon longsword", chance = 400, maxCount = 1 },
+	{ name = "falcon mace", chance = 400, maxCount = 1 },
+	{ name = "grant of arms", chance = 400, maxCount = 1 },
+	{ name = "falcon bow", chance = 400, maxCount = 1 },
+	{ name = "falcon circlet", chance = 400, maxCount = 1 },
+	{ name = "falcon coif", chance = 400, maxCount = 1 },
+	{ name = "falcon rod", chance = 400, maxCount = 1 },
+	{ name = "falcon wand", chance = 400, maxCount = 1 },
+	{ name = "falcon shield", chance = 400, maxCount = 1 },
+	{ name = "falcon greaves", chance = 400, maxCount = 1 },
+	{ name = "falcon plate", chance = 400, maxCount = 1 },
 }
 
 monster.attacks = {
@@ -121,7 +121,7 @@ mType.onThink = function(monster, interval)
 	if monster:getStorageValue(GrandMasterOberonConfig.Storage.Life) <= GrandMasterOberonConfig.AmountLife then
 		local percentageHealth = (monster:getHealth() * 100) / monster:getMaxHealth()
 		if percentageHealth <= 20 then
-			SendOberonAsking(monster)
+		--	SendOberonAsking(monster)
 		end
 	end
 end
@@ -141,9 +141,6 @@ mType.onDisappear = function(monster, creature) end
 mType.onMove = function(monster, creature, fromPosition, toPosition) end
 
 mType.onSay = function(monster, creature, type, message)
-	if type ~= TALKTYPE_SAY then
-		return false
-	end
 	local exhaust = GrandMasterOberonConfig.Storage.Exhaust
 	if creature:isPlayer() and monster:getStorageValue(exhaust) <= os.time() then
 		message = message:lower()

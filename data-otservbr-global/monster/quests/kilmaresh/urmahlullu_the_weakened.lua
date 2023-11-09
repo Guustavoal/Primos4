@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 100000
-monster.maxHealth = 512000
+monster.health = 200000
+monster.maxHealth = 200000
 monster.race = "blood"
 monster.corpse = 31413
 monster.speed = 95
@@ -85,33 +85,29 @@ monster.loot = {
 	{ name = "ultimate spirit potion", chance = 19230, maxCount = 8 },
 	{ name = "magma amulet", chance = 19230 },
 	{ name = "gold ingot", chance = 19230 },
-	{ name = "blue gem", chance = 15380 },
+	{ name = "blue gem", chance = 15380 , maxCount = 3 },
 	{ name = "magma monocle", chance = 15380 },
-	{ name = "yellow gem", chance = 15380 },
+	{ name = "yellow gem", chance = 15380 , maxCount = 3 },
 	{ name = "crystal coin", chance = 11540, maxCount = 5 },
 	{ name = "silver token", chance = 7690, maxCount = 5 },
-	{ name = "violet gem", chance = 7690 },
-	{ name = "urmahlullu's paw", chance = 7690 },
+	{ name = "violet gem", chance = 7690 , maxCount = 3 },
+	{ name = "urmahlullu's paw", chance = 3690 },
 	{ id = 281, chance = 7690 }, -- giant shimmering pearl
 	{ name = "mastermind potion", chance = 3850 },
 	{ name = "tagralt blade", chance = 1850 },
 	{ name = "giant sapphire", chance = 3850 },
 	{ id = 31263, chance = 3850 }, -- ring of secret thoughts
-	{ name = "sunray emblem", chance = 3850 },
 	{ name = "urmahlullu's mane", chance = 3850 },
-	{ name = "winged boots", chance = 1850 },
-	{ name = "urmahlullu's tail", chance = 6980 },
-	{ name = "lightning legs", chance = 6400 },
+	{ name = "winged boots", chance = 1050 },
+	{ name = "urmahlullu's tail", chance = 3980 },
 	{ name = "giant emerald", chance = 3490 },
-	{ name = "giant ruby", chance = 3490 },
-	{ id = 30403, chance = 1740 }, -- enchanted theurgic amulet
-	{ name = "sun medal", chance = 580 },
-	{ name = "golden bijou", chance = 580 },
-	{ name = "winged backpack", chance = 250 },
-	{ name = "rainbow necklace", chance = 1160 },
-	{ id = 30403, chance = 160 }, -- enchanted theurgic amulet
-	{ name = "sun medal", chance = 160 },
-	{ name = "sunray emblem", chance = 160 },
+	{ name = "giant ruby", chance = 5490 },
+	{ id = 30403, chance = 2040 }, -- enchanted theurgic amulet
+	{ name = "urmahlullu's mane", chance = 5850 },
+	{ name = "sunray emblem", chance = 1000 },
+	{ id = 31572, chance = 1000 }, --Blue and Golden Cordon
+	{ name = "sun medal", chance = 1000 },
+	{ name = "sunray emblem", chance = 1000 },
 }
 
 monster.attacks = {

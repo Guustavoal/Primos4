@@ -83,27 +83,22 @@ monster.voices = {
 
 monster.loot = {
 	{ id = 22516, chance = 1000000 }, -- silver token
-	{ id = 6558, chance = 10000 }, -- flask of demonic blood
-	{ id = 6558, chance = 10000 }, -- flask of demonic blood
-	{ id = 6558, chance = 10000 }, -- flask of demonic blood
-	{ id = 6558, chance = 10000 }, -- flask of demonic blood
-	{ id = 6558, chance = 10000 }, -- flask of demonic blood
 	{ id = 3031, chance = 98000, maxCount = 200 }, -- gold coin
 	{ id = 3026, chance = 12000, maxCount = 8 }, -- white pearl
 	{ id = 3029, chance = 12000, maxCount = 9 }, -- small sapphire
 	{ id = 3033, chance = 10000, maxCount = 5 }, -- small amethyst
 	{ id = 3035, chance = 8000, maxCount = 58 }, -- platinum coin
-	{ id = 3036, chance = 1000 }, -- violet gem
-	{ id = 3037, chance = 1000 }, -- yellow gem
-	{ id = 3039, chance = 1000 }, -- red gem
-	{ id = 3041, chance = 1000 }, -- blue gem
+	{ id = 3036, chance = 2000, minCount = 1, maxCount = 3  }, -- violet gem
+	{ id = 3037, chance = 2000, minCount = 1, maxCount = 3  }, -- yellow gem
+	{ id = 3039, chance = 2000, minCount = 1, maxCount = 3  }, -- red gem
+	{ id = 3041, chance = 2000, minCount = 1, maxCount = 3  }, -- blue gem
 	{ id = 3065, chance = 13000 }, -- terra rod
 	{ id = 3356, chance = 8000 }, -- devil helmet
 	{ id = 22193, chance = 46100, maxCount = 5 }, -- onyx chip
 	{ id = 22194, chance = 46100, maxCount = 5 }, -- opal
-	{ id = 22754, chance = 500 }, -- visage of the end days
+	{ id = 22754, chance = 1000 }, -- visage of the end days
 	{ id = 22762, chance = 500, unique = true }, -- maimer
-	{ id = 5021, chance = 46100, maxCount = 5 }, -- orichalcum pearl
+	{ id = 5021, chance = 46100, maxCount = 25 }, -- orichalcum pearl
 	{ id = 6499, chance = 11000 }, -- demonic essence
 	{ id = 7439, chance = 8000 }, -- berserk potion
 	{ id = 7440, chance = 4000 }, -- mastermind potion
@@ -113,9 +108,9 @@ monster.loot = {
 	{ id = 281, chance = 14000, maxCount = 5 }, -- giant shimmering pearl (green)
 	{ id = 282, chance = 14000, maxCount = 5 }, -- giant shimmering pearl (brown)
 	{ id = 7642, chance = 46100, maxCount = 10 }, -- great spirit potion
-	{ id = 3422, chance = 100, unique = true }, -- great shield
+	{ id = 3422, chance = 200, unique = true }, -- great shield
 	{ id = 7643, chance = 23000, maxCount = 5 }, -- ultimate health potion
-	{ id = 9057, chance = 10000, maxCount = 8 }, -- small topaz
+	{ id = 9057, chance = 10000, maxCount = 18 }, -- small topaz
 }
 
 monster.attacks = {

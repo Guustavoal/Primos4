@@ -96,9 +96,7 @@ monster.loot = {
 	{ name = "dreaded cleaver", chance = 1000 },
 	{ name = "mercenary sword", chance = 1000 },
 	{ id = 28341, chance = 1000 }, -- tessellated wall
-	{ id = 8900, chance = 1000 }, -- heavily rusted shield
-	{ id = 8906, chance = 1000 }, -- heavily rusted helmet
-	{ name = "epaulette", chance = 500 },
+	{ name = "epaulette", chance = 1000 },
 	{ name = "giant emerald", chance = 500 },
 	{ name = "unliving demonbone", chance = 500 },
 }

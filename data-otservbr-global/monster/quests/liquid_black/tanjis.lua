@@ -22,8 +22,8 @@ monster.bosstiary = {
 	bossRace = RARITY_BANE,
 }
 
-monster.health = 30000
-monster.maxHealth = 30000
+monster.health = 90000
+monster.maxHealth = 90000
 monster.race = "blood"
 monster.corpse = 13801
 monster.speed = 280
@@ -76,6 +76,7 @@ monster.loot = {
 	{ name = "depth ocrea", chance = 1200 },
 	{ name = "ornate mace", chance = 1100, unique = true },
 	{ name = "ornate shield", chance = 1100 },
+	{ id = 14022, chance = 500, unique = true }, -- Tanjis' Sight
 }
 
 monster.attacks = {

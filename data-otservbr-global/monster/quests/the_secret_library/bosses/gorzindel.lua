@@ -98,8 +98,6 @@ monster.loot = {
 	{ name = "magic sulphur", chance = 1000, maxCount = 2 },
 	{ name = "muck rod", chance = 1000 },
 	{ id = 3039, chance = 1000 }, -- red gem
-	{ id = 8906, chance = 1000 }, -- heavily rusted helmet
-	{ id = 8900, chance = 1000 }, -- heavily rusted shield
 	{ name = "silver Token", chance = 1000, maxCount = 6 },
 	{ name = "sinister book", chance = 1000 },
 	{ name = "spellbook of warding", chance = 1000 },
@@ -107,6 +105,7 @@ monster.loot = {
 	{ name = "stone skin amulet", chance = 1000 },
 	{ name = "wand of cosmic Energy", chance = 1000 },
 	{ name = "yellow gem", chance = 1000 },
+	{ name = "sturdy book", chance = 1000 },
 }
 
 monster.attacks = {

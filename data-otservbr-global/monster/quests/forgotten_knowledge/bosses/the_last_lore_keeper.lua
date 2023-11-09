@@ -1,8 +1,8 @@
 local mType = Game.createMonsterType("The Last Lore Keeper")
 local monster = {}
 
-monster.description = "the last lore keeper"
-monster.experience = 45000
+monster.description = "The Last Lore Keeper"
+monster.experience = 450000
 monster.outfit = {
 	lookType = 939,
 	lookHead = 0,
@@ -20,7 +20,7 @@ monster.events = {
 monster.health = 750000
 monster.maxHealth = 750000
 monster.race = "undead"
-monster.corpse = 0
+monster.corpse = 6068
 monster.speed = 225
 monster.manaCost = 0
 
@@ -79,53 +79,57 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 16119, chance = 3000, maxCount = 3 }, -- blue crystal shard
+	{ id = 16119, chance = 3000, maxCount = 10 }, -- blue crystal shard
 	{ id = 3031, chance = 50320, maxCount = 200 }, -- gold coin
 	{ id = 3035, chance = 50320, maxCount = 35 }, -- platinum coin
 	{ id = 22721, chance = 3000, maxCount = 3 }, -- gold token
-	{ id = 5909, chance = 3000, maxCount = 4 }, -- white piece of cloth
-	{ id = 16120, chance = 3000, maxCount = 3 }, -- violet crystal shard
-	{ id = 281, chance = 500 }, -- giant shimmering pearl (green)
+	{ id = 5909, chance = 3000, maxCount = 14 }, -- white piece of cloth
+	{ id = 16120, chance = 3000, maxCount = 13 }, -- violet crystal shard
+	{ id = 281, chance = 1500 }, -- giant shimmering pearl (green)
 	{ id = 3037, chance = 1000 }, -- yellow gem
 	{ id = 3032, chance = 3000, maxCount = 20 }, -- small emerald
-	{ id = 7450, chance = 150, unique = true }, -- hammer of prophecy
+	{ id = 7450, chance = 550, unique = true }, -- hammer of prophecy
 	{ id = 5880, chance = 3000, maxCount = 2 }, -- iron ore
-	{ id = 9632, chance = 1000 }, -- ancient stone
-	{ id = 3360, chance = 1000 }, -- golden armor
+	{ id = 9632, chance = 2000 }, -- ancient stone
+	{ id = 3360, chance = 2000 }, -- golden armor
 	{ id = 7642, chance = 3000, maxCount = 10 }, -- great spirit potion
 	{ id = 20079, chance = 400 }, -- crude umbral hammer
 	{ id = 22193, chance = 3000 }, -- onyx chip
-	{ id = 9660, chance = 1000 }, -- mystical hourglass
-	{ id = 5887, chance = 1000 }, -- piece of royal steel
+	{ id = 9660, chance = 2000, minCount = 1, maxCount = 5  }, -- mystical hourglass
+	{ id = 5887, chance = 2000, minCount = 1, maxCount = 5  }, -- piece of royal steel
 	{ id = 23533, chance = 3000 }, -- ring of red plasma
 	{ id = 7643, chance = 3000, maxCount = 5 }, -- ultimate health potion
 	{ id = 22516, chance = 10000, maxCount = 4 }, -- silver token
 	{ id = 238, chance = 70000, maxCount = 10 }, -- great mana potion
 	{ id = 3029, chance = 250, maxCount = 20 }, -- small sapphire
-	{ id = 3039, chance = 9300, maxCount = 1 }, -- red gem
-	{ id = 9058, chance = 7692, maxCount = 2 }, -- gold ingot
-	{ id = 22194, chance = 2200, maxCount = 2 }, -- opal
-	{ id = 3038, chance = 12800, maxCount = 2 }, -- green gem
-	{ id = 9057, chance = 2680, maxCount = 20 }, -- small topaz
-	{ id = 3030, chance = 2030, maxCount = 20 }, -- small ruby
+	{ id = 3039, chance = 9300, maxCount = 5 }, -- red gem
+	{ id = 9058, chance = 7692, maxCount = 5 }, -- gold ingot
+	{ id = 22194, chance = 2200, minCount = 1, maxCount = 10  }, -- opal
+	{ id = 3038, chance = 12800, maxCount = 5 }, -- green gem
+	{ id = 9057, chance = 2680, maxCount = 30 }, -- small topaz
+	{ id = 3030, chance = 2030, maxCount = 30 }, -- small ruby
 	{ id = 5904, chance = 3000 }, -- magic sulphur
-	{ id = 3033, chance = 14700, maxCount = 20 }, -- small amethyst
+	{ id = 3033, chance = 14700, maxCount = 30 }, -- small amethyst
 	{ id = 5891, chance = 7692 }, -- enchanted chicken wing
 	{ id = 3324, chance = 8300 }, -- skull staff
 	{ id = 3036, chance = 2340, maxCount = 1 }, -- violet gem
 	{ id = 7437, chance = 14000 }, -- sapphire hammer
-	{ id = 8029, chance = 700 }, -- silkweaver bow
-	{ id = 8051, chance = 200 }, -- voltage armor
-	{ id = 3418, chance = 900 }, -- bonelord shield
+	{ id = 8029, chance = 1700 }, -- silkweaver bow
+	{ id = 8051, chance = 1200 }, -- voltage armor
+	{ id = 3418, chance = 1900 }, -- bonelord shield
 	{ id = 8076, chance = 2500 }, -- spellscroll of prophecies
-	{ id = 7418, chance = 380 }, -- nightmare blade
-	{ id = 16160, chance = 620 }, -- crystalline sword
+	{ id = 7418, chance = 4380 }, -- nightmare blade
+	{ id = 16160, chance = 2620 }, -- crystalline sword
 	{ id = 5809, chance = 820 }, -- soul stone
-	{ id = 24971, chance = 500 }, -- forbidden tome
+	{ id = 24971, chance = 800 }, -- forbidden tome
 	{ id = 24972, chance = 800 }, -- key to knowledge
 	{ id = 20080, chance = 400 }, -- umbral hammer
-	{ id = 24954, chance = 400 }, -- part of a rune
+	{ id = 24954, chance = 800 }, -- part of a rune
 	{ id = 23375, chance = 3000, maxCount = 5 }, -- supreme health potion
+	{ id = 16153, chance = 2000 }, -- Iron Loadstone
+	{ id = 39548, chance = 2000 }, -- Colourful Water Lily
+	{ id = 21439, chance = 2000 }, -- The Lion's Heart
+	{ id = 12305, chance = 2000 }, -- Tin Key
 }
 
 monster.attacks = {

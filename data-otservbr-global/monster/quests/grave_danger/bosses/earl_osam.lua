@@ -95,13 +95,13 @@ monster.loot = {
 	{ id = 23533, chance = 5000 }, -- ring of red plasma
 	{ name = "warrior helmet", chance = 11000 },
 	{ name = "guardian axe", chance = 6400 },
-	{ name = "gold ingot", minCount = 0, maxCount = 1, chance = 10000 },
+	{ name = "gold ingot", minCount = 0, maxCount = 4, chance = 10000 },
 	{ name = "young lich worm", chance = 5800 },
-	{ name = "embrace of nature", chance = 1600 },
+	{ name = "embrace of nature", chance = 1790 },
 	{ name = "token of love", chance = 1200 },
 	{ name = "rotten heart", chance = 1700 },
-	{ name = "terra helmet", chance = 730 },
-	{ name = "final judgement", chance = 440 },
+	{ name = "terra helmet", chance = 1730 },
+	{ name = "final judgement", chance = 500 },
 }
 
 monster.attacks = {

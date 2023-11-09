@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 4800
-monster.maxHealth = 4800
+monster.health = 48000
+monster.maxHealth = 48000
 monster.race = "blood"
 monster.corpse = 18099
 monster.speed = 125
@@ -96,7 +96,13 @@ monster.loot = {
 	{ name = "sai", chance = 250 },
 	{ id = 7394, chance = 13600000 }, -- wolf trophy
 	{ name = "silver token", chance = 250 },
-	{ name = "wolf backpack", chance = 100 },
+	{ name = "wolf backpack", chance = 450 },
+	{ name = "foxtail", chance = 1000 },
+	{ id = 19136, chance = 1000 }, -- nail case
+	{ id = 12307, chance = 1000 }, -- harness
+	{ id = 12308, chance = 1000 }, -- reins
+	{ id = 5907, chance = 1000 }, -- slingshot
+	{ id = 12802, chance = 2000, maxCount = 50 }, -- sugar oat
 }
 
 monster.attacks = {

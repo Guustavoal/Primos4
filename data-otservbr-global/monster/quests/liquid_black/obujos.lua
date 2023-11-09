@@ -22,8 +22,8 @@ monster.bosstiary = {
 	bossRace = RARITY_BANE,
 }
 
-monster.health = 35000
-monster.maxHealth = 35000
+monster.health = 90000
+monster.maxHealth = 90000
 monster.race = "blood"
 monster.corpse = 13800
 monster.speed = 280
@@ -77,6 +77,7 @@ monster.loot = {
 	{ name = "deepling axe", chance = 1300 },
 	{ name = "depth scutum", chance = 1185 },
 	{ name = "ornate legs", chance = 700, unique = true },
+	{ id = 14023, chance = 500, unique = true }, -- Obujos' Shell
 }
 
 monster.attacks = {

@@ -67,13 +67,6 @@ monster.light = {
 }
 
 monster.summon = {
-	maxSummons = 8,
-	summons = {
-		{ name = "walker", chance = 10, interval = 2000, count = 2 },
-		{ name = "glooth trasher", chance = 10, interval = 2000, count = 2 },
-		{ name = "glooth smasher", chance = 10, interval = 2000, count = 2 },
-		{ name = "glooth slasher", chance = 10, interval = 2000, count = 2 },
-	},
 }
 
 monster.voices = {
@@ -82,8 +75,14 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 21901, chance = 1000, unique = true }, -- glooth glider casing
-	{ id = 21292, chance = 1000 }, -- feedbag
+	{ id = 21901, chance = 250, unique = true }, -- glooth glider casing
+	{ id = 21292, chance = 250 }, -- feedbag
+	{ id = 21901, chance = 250 }, -- glooth glider casing
+	{ id = 21292, chance = 250 }, -- feedbag
+	{ id = 21897, chance = 250 }, -- glooth glider blueprint
+	{ id = 21902, chance = 250 }, -- glooth glider crank
+	{ id = 21906, chance = 250 }, -- glooth glider gear wheel
+	{ id = 21898, chance = 250 }, -- roll of covering
 }
 
 monster.attacks = {
@@ -103,7 +102,7 @@ monster.defenses = {
 	{ name = "speed", interval = 2000, chance = 13, speedChange = 460, effect = CONST_ME_MAGIC_RED, target = false, duration = 4000 },
 	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_HEALING, minDamage = 200, maxDamage = 250, effect = CONST_ME_MAGIC_BLUE, target = false },
 	{ name = "generator", interval = 30000, chance = 50, target = false },
-	{ name = "maxxenteleport", interval = 2000, chance = 5, target = false },
+	--{ name = "maxxenteleport", interval = 2000, chance = 5, target = false },
 	{ name = "glooth fairy healing", interval = 1000, chance = 100, target = false },
 }
 

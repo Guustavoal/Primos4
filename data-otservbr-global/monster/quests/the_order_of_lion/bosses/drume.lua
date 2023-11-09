@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 80000
-monster.maxHealth = 80000
+monster.health = 150000
+monster.maxHealth = 150000
 monster.race = "blood"
 monster.corpse = 33973
 monster.speed = 130
@@ -106,23 +106,23 @@ monster.loot = {
 	{ name = "terra mantle", chance = 7831 },
 	{ name = "raw watermelon tourmaline", chance = 7229 },
 	{ name = "wand of voodoo", chance = 6024 },
-	{ name = "violet gem", chance = 5723 },
+	{ name = "violet gem", chance = 5723, maxCount = 3  },
 	{ name = "terra hood", chance = 4819 },
 	{ name = "terra amulet", chance = 4518 },
 	{ name = "giant sapphire", chance = 4217 },
 	{ name = "giant ruby", chance = 3012 },
 	{ name = "underworld rod", chance = 2410 },
-	{ name = "lion spangenhelm", chance = 300 },
-	{ name = "lion plate", chance = 300 },
-	{ name = "lion shield", chance = 300 },
-	{ name = "lion longsword", chance = 350 },
-	{ name = "lion hammer", chance = 300 },
-	{ name = "lion axe", chance = 300 },
-	{ name = "lion longbow", chance = 300 },
-	{ name = "lion spellbook", chance = 350 },
-	{ name = "lion wand", chance = 300 },
-	{ name = "lion amulet", chance = 300 },
-	{ name = "lion rod", chance = 300 },
+	{ name = "lion spangenhelm", chance = 500 },
+	{ name = "lion plate", chance = 1500 },
+	{ name = "lion shield", chance = 1500 },
+	{ name = "lion longsword", chance = 1500 },
+	{ name = "lion hammer", chance = 1500 },
+	{ name = "lion axe", chance = 1500 },
+	{ name = "lion longbow", chance = 1500 },
+	{ name = "lion spellbook", chance = 1500 },
+	{ name = "lion wand", chance = 1500 },
+	{ name = "lion amulet", chance = 1500 },
+	{ name = "lion rod", chance = 1500 },
 }
 
 monster.attacks = {
