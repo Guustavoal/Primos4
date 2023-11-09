@@ -215,7 +215,11 @@ Storage = {
 		Fourteen = {
 			Remains = 50041,
 		},
+		UrmahlulluTimer = 50042,
 		AccessDoor = 50043,
+		NeferiTheSpyTimer = 50044,
+		SisterHetaiTimer = 55045,
+		AmenefTimer = 55046,
 		CatacombDoors = 55047,
 	},
 	TheSecretLibrary = {
@@ -429,11 +433,15 @@ Storage = {
 		Questline = 50350,
 		DragonCounter = 50351,
 		ChestCounter = 50352,
+		TazhadurTimer = 50353,
+		KalyassaTimer = 50354,
 		SecretsCounter = 50355,
 		GelidrazahAccess = 50356,
+		GelidrazahTimer = 50357,
 		DesertTile = 50358,
 		StoneSculptureTile = 50359,
 		SuntowerTile = 50360,
+		ZorvoraxTimer = 50361,
 		Horn = 50362,
 		Scale = 50363,
 		Bones = 50364,
@@ -465,6 +473,14 @@ Storage = {
 		RiftRunner = 50420, -- Scroll
 		TheShattererTimer = 50421,
 		TheLordOfTheLiceTimer = 50422,
+		TarbazTimer = 50423,
+		RazzagornTimer = 50424,
+		RagiazTimer = 50425,
+		ZamuloshTimer = 50426,
+		ShulgraxTimer = 50427,
+		MazoranTimer = 50428,
+		PlagirathTimer = 50429,
+		FerumbrasTimer = 50430,
 		Tarbaz = 50431,
 		Razzagorn = 50432,
 		Ragiaz = 50433,
@@ -515,12 +531,19 @@ Storage = {
 		DiamondServantCounter = 50484,
 		AccessPortals = 50485,
 		AccessMachine = 50486,
+		LadyTenebrisTimer = 50487,
 		LadyTenebrisKilled = 50488,
+		LloydTimer = 50489,
 		LloydKilled = 50490,
+		ThornKnightTimer = 50491,
 		ThornKnightKilled = 50492,
+		DragonkingTimer = 50493,
 		DragonkingKilled = 50494,
+		HorrorTimer = 50495,
 		HorrorKilled = 50496,
+		TimeGuardianTimer = 50497,
 		TimeGuardianKilled = 50498,
+		LastLoreTimer = 50499,
 		LastLoreKilled = 50501,
 		BirdCage = 50502,
 		AccessLavaTeleport = 50503,
@@ -663,6 +686,9 @@ Storage = {
 		Warzone3Reward = 50704,
 		BossKills = 50705,
 		DoorGoldenFruits = 50706,
+		BossWarzone1 = 50707,
+		BossWarzone2 = 50708,
+		BossWarzone3 = 50709,
 		GnomedixMsg = 50710,
 	},
 	TheirMastersVoice = {
@@ -908,7 +934,7 @@ Storage = {
 		DeeplingAnchor = 51023,
 		FirstOrientalAddon = 51024,
 		SecondOrientalAddon = 51025,
-		RoyalCostumeOutfit = 51026,
+		DeeplingOutfit = 51026,
 	},
 	TheAncientTombs = {
 		-- Reserved storage from 50940 - 51059
@@ -1682,6 +1708,7 @@ Storage = {
 		Questline = 52310,
 		CobraBastion = {
 			Questline = 52311,
+			ScarlettTimer = 52312,
 		},
 	},
 	RottinWoodAndMaried = {
@@ -1707,6 +1734,7 @@ Storage = {
 			Commander = 52396, -- Global
 			TotalLionCommanders = 52397, -- Global
 			TotalUsurperCommanders = 52398, -- Global
+			Timer = 52399,
 		},
 	},
 	-- News quest development
@@ -2140,7 +2168,7 @@ Storage = {
 			InServiceOfYalahar = {},
 			TheHiddenCityOfBeregar = {},
 			TopOfTheCity = {},
-			YalaharianOutfits = {},
+			YalaharianOutfits = 41913,
 		},
 		U8_5 = { -- update 8.5 - Reserved Storages 42146 - 42550
 			Braindeath = {},
@@ -2403,7 +2431,7 @@ Storage = {
 			AFathersBurden = {},
 			AnInterestInBotany = {},
 			TheSpiritWillGetYou = {},
-			WayfarerOutfits = {},
+			WayfarerOutfits = 42951,
 			WrathOfTheEmperor = {},
 		},
 		U8_61 = { -- update 8.61 - Reserved Storages 43201 - 43230
@@ -2447,7 +2475,7 @@ Storage = {
 			DownTheDrainMiniWorldChange = {},
 			FireFromTheEarthMiniWorldChange = {},
 			HiveBornWorldChange = {},
-			InsectoidOutfits = {},
+			InsectoidOutfits = 43551,
 			KingsdayMiniWorldChange = {},
 			LiquidBlack = {},
 			LumberjackMiniWorldChange = {},
@@ -2458,21 +2486,23 @@ Storage = {
 			StampedeMiniWorldChange = {},
 			ThawingMiniWorldChange = {},
 			WarAgainstTheHive = {},
+			FormalDressOutfit = 43552,
 		},
 		U9_5 = { -- update 9.5 - Reserved Storages 43751 - 43850
 			SpringIntoLife = {},
 		},
 		U9_60 = { -- update 9.60 - Reserved Storages 43851 - 44000
 			BigfootsBurden = {},
-			CrystalWarlordOutfits = {},
+			CrystalWarlordOutfits = 43851,
 			DevovorgasEssenceMiniWorldChange = {},
-			SoilGuardianOutfits = {},
+			SoilGuardianOutfits = 43852,
 			SpiderNestMiniWorldChange = {},
 			WarpathMiniWorldChange = {},
 		},
 		U9_80 = { -- update 9.80 - Reserved Storages 44001 - 44100
 			ChildOfDestiny = {},
-			DemonOutfits = {},
+			DemonOutfits = 44001,
+			DemonHunterOutfits = 44002,
 			GoblinMerchant = {},
 			VenoreDailyTasks = {},
 		},
@@ -2485,7 +2515,7 @@ Storage = {
 			TheRepenters = {},
 		},
 		U10_20 = { -- update 10.20 - Reserved Storages 44301 - 44400
-			CaveExplorerOutfits = {},
+			CaveExplorerOutfits = 44301,
 			SpikeTasks = {},
 			SpiritGroundsMiniWorldChange = {},
 		},
@@ -2499,7 +2529,7 @@ Storage = {
 		},
 		U10_50 = { -- update 10.50 - Reserved Storages 44551 - 44750
 			DarkTrails = {},
-			GloothEngineerOutfits = {},
+			GloothEngineerOutfits = 44551,
 			Oramond = {},
 			Rathleton = {},
 		},
@@ -2540,8 +2570,17 @@ Storage = {
 			ChakoyaIcebergMiniWorldChange = {},
 			GrimvaleMineWorldChange = {},
 			Grimvale = {
+				BloodbackTimer = 44951,
+				DarkfangTimer = 44952,
+				SharpclawTimer = 44953,
+				ShadowpeltTimer = 44954,
+				BlackVixenTimer = 44955,
 				AncientFeudDoors = 44956,
 				AncientFeudShortcut = 44957,
+				YirkasTimer = 44958,
+				SrezzTimer = 44959,
+				UtuaTimer = 44960,
+				KatexTimer = 44961,
 			},
 			HiveOutpostMiniWorldChange = {},
 			JungleCampMiniWorldChange = {},
@@ -2555,13 +2594,13 @@ Storage = {
 		U10_90 = { -- update 10.90 - Reserved Storages 45201 - 45350
 			FerumbrasAscension = {},
 			Krailos = {},
-			RiftWarriorOutfits = {},
+			RiftWarriorOutfits = 45201,
 		},
 		U10_94 = { -- update 10.94 - Reserved Storages 45351 - 45450
 			HeartOfDestruction = {},
 		},
 		U11_02 = { -- update 11.02 - Reserved Storages 45451 - 45650
-			FestiveOutfits = {},
+			FestiveOutfits = 45451,
 			FirstDragon = {},
 			ForgottenKnowledge = {},
 		},
@@ -2651,11 +2690,11 @@ Storage = {
 				CorymRescued08 = 45987,
 				CorymRescueMission = 45988,
 			},
-			MakeshiftWarriorOutfits = {},
+			MakeshiftWarriorOutfits = 45989,
 		},
 		U11_80 = { -- update 11.80 - Reserved Storages 46001 - 46300
 			BattleMageOutfits = {},
-			DiscovererOutfits = {},
+			DiscovererOutfits = 46001,
 			MeasuringTibia = {},
 			TheSecretLibrary = {
 				FalconBastionChestsTimer = {
@@ -2680,13 +2719,14 @@ Storage = {
 			},
 		},
 		U12_00 = { -- update 12.00 - Reserved Storages 46301 - 46600
-			DreamWarriorOutfits = {},
+			DreamWarriorOutfits = 46301,
 			TheDreamCourts = {
 				QuestLine = 46401,
 				HauntedHouseAccess = 46402,
 				BuriedCathedralAccess = 46403,
 				DreamScarAccess = 46404,
 				AndrewDoor = 14900,
+				FacelessBaneTime = 50283,
 				AccessDoors = 46309,
 				ArenaTimer = 46310,
 				PlaguerootKilled = 46311,
@@ -2723,52 +2763,72 @@ Storage = {
 					IceIslands = 46863,
 				},
 				Bosses = {
+					BaelocNictrosTimer = 46865,
 					BaelocNictrosKilled = 46866,
+					CountVlarkorthTimer = 46867,
 					CountVlarkorthKilled = 46868,
+					DukeKruleTimer = 46869,
 					DukeKruleKilled = 46870,
+					EarlOsamTimer = 46871,
 					EarlOsamKilled = 46872,
+					LordAzaramTimer = 46873,
 					LordAzaramKilled = 46874,
 					KingZelosDoor = 46875,
+					KingZelosTimer = 46876,
 					KingZelosKilled = 46877,
 					InquisitionOutfitReceived = 46878,
 				},
 				Cobra = 46864,
 			},
-			HandOfTheInquisitionOutfits = {},
+			HandOfTheInquisitionOutfits = 46879,
 			-- Kilmaresh = {}, done earlier in the file
 		},
 		U12_30 = { -- update 12.30 - Reserved Storages 47001 - 47200
 			FalconerOutfits = {},
 			FeasterOfSouls = {
+				IrgixTimer = 47005,
+				IrgixKilled = 47006,
+				UnazTimer = 47007,
 				UnazKilled = 47008,
+				VokTimer = 47009,
 				VokKilled = 47010,
+				FearFeasterTimer = 47011,
 				FearFeasterKilled = 47012,
+				DreadMaidenTimer = 47013,
 				DreadMaidenKilled = 47014,
+				UnwelcomeTimer = 47015,
 				UnwelcomeKilled = 47016,
 				PaleWormEntrance = 47017,
+				PaleWormTimer = 47018,
 				PaleWormKilled = 47019,
 			},
 			PoltergeistOutfits = {
 				Received = 47020,
+				Completed = 47021,
 			},
 		},
 		U12_40 = { -- update 12.40 - Reserved Storages 47201 - 47500
-			RevenantOutfits = {},
+			RevenantOutfits = 47201,
 			TheOrderOfTheLion = {
 				QuestLine = 47401,
 				AccessEastSide = 47402,
 				AccessSouthernSide = 47403,
 			},
 			SoulWar = {
+				GoshnarMaliceTimer = 47210,
 				GoshnarMaliceKilled = 47211,
+				GoshnarHatredTimer = 47212,
 				GoshnarHatredKilled = 47213,
+				GoshnarSpiteTimer = 47214,
 				GoshnarSpiteKilled = 47215,
+				GoshnarCrueltyTimer = 47216,
 				GoshnarCrueltyKilled = 47217,
+				GoshnarGreedTimer = 47218,
 				GoshnarGreedKilled = 47219,
 				GoshnarMegalomaniaAccess = 47220,
+				GoshnarMegalomaniaTimer = 47221,
 				GoshnarMegalomaniaKilled = 47222,
 				QuestReward = 47223,
-				OutfitReward = 47224,
 			},
 		},
 		U12_60 = { -- update 12.60 - Reserved Storages 47501 - 47600
@@ -2777,18 +2837,26 @@ Storage = {
 				RascacoonShortcut = 47512,
 				TentuglyKilled = 47513,
 				TentuglyDoor = 47514,
+				TentuglyTimer = 47515,
+				RatmiralTimer = 47516,
 			},
-			RascoohanOutfits = {},
+			RascoohanOutfits = 47517,
 		},
 		U12_70 = { -- update 12.70 - Reserved Storages 47601 - 47800
 			AdventuresOfGalthen = {
 				AccessDoor = 47601,
+				MegasylvanYseldaTimer = 47602,
 			},
-			CitizenOfIssaviOutfits = {},
-			RoyalBounaceanAdvisorOutfits = {},
+			CitizenOfIssaviOutfits = 47603,
+			RoyalBounaceanAdvisorOutfits = 47604,
+			TooHotToHandle = {
+				BrainstealerTimer = 47611,
+			},
 		},
 		U12_80 = { -- update 12.80 - Reserved Storages 47801 - 47850
-			RoyalCostumeOutfits = {},
+			RoyalCostumeOutfits = 47801,
+
+
 		},
 		U12_90 = { -- update 12.90 - Reserved Storages 47851 - 47900
 			PrimalOrdeal = {
@@ -2796,11 +2864,25 @@ Storage = {
 				Hazard = {
 					Current = 47856,
 					Max = 47857,
+					PrimalBag = 47866,
 				},
 				Bosses = {
+					MagmaBubbleTimer = 47852,
 					MagmaBubbleKilled = 47853,
+					MiloTimer = 47863,
+					MiloKilled = 47864,
+					AldebaranTimer = 47859,
+					AldebaranKilled = 47860,
+					CamusTimer = 47861,
+					CamusKilled = 47862,
+					rewardtime = 47865,
+					ThePrimalMenaceTimer = 47854,
 					ThePrimalMenaceKilled = 47855,
 				},
+				FireFighterOutift = 47867,
+			},
+			WithinTheTides = {
+				TimiraTimer = 47858,
 			},
 		},
 		U13_10 = { -- update 13.10 - Reserved Storages 47901 - 47951
@@ -3084,6 +3166,10 @@ GlobalStorage = {
 	NightmareIsle = 65015,
 	IceCrack = 65016,
 	UglyMonster = 65017,
+	bonusReward = 65100,--task system
+	bonusReward = 65101,
+
+
 	KeysUpdate = 40000, -- Reserved storage from 40000 - 40000
 }
 
