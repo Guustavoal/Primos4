@@ -8,7 +8,6 @@ function onGetFormulaValues(player, level, maglevel)
 	local max = (level / 5) + (maglevel * 3) + 18
 	return -min, -max
 end
-
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
 local spell = Spell("instant")
@@ -30,7 +29,7 @@ spell:range(4)
 spell:needCasterTargetOrDirection(true)
 spell:blockWalls(true)
 spell:cooldown(2 * 1000)
-spell:groupCooldown(2 * 1000)
+spell:groupCooldown(1 * 1000)
 spell:needLearn(false)
 spell:vocation("paladin;true", "royal paladin;true")
 spell:register()
