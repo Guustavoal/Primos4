@@ -1401,6 +1401,23 @@ npcConfig.shop = {
 	{ itemName = "Brainstealer's brain", clientId = 36795, sell = 300000 },
 	{ itemName = "Brainstealer's brainwave", clientId = 36796, sell = 440000 },
 
+	{ itemName = "execowtioner axe", clientId = 21176, sell = 12000 },
+	{ itemName = "belted cape", clientId = 8044, sell = 500 },
+	{ itemName = "dream blossom staff", clientId = 25700, sell = 5000 },
+	{ itemName = "leaf star", clientId = 25735, sell = 50 },
+	{ itemName = "cowbell", clientId = 21204, sell = 210 },
+	{ itemName = "execowtioner mask", clientId = 21201, sell = 240 },
+	{ itemName = "giant pacifier", clientId = 21199, sell = 170 },
+	{ itemName = "glob of glooth", clientId = 21182, sell = 125 },
+	{ itemName = "glooth injection tube", clientId = 21103, sell = 350 },
+	{ itemName = "poisoned fang", clientId = 21195, sell = 130 },
+	{ itemName = "seacrest hair", clientId = 21801, sell = 260 },
+	{ itemName = "seacrest pearl", clientId = 21747, sell = 400 },
+	{ itemName = "seacrest scale", clientId = 21800, sell = 150 },
+	{ itemName = "slime heart", clientId = 21194, sell = 160 },
+	{ itemName = "slimy leaf tentacle", clientId = 21197, sell = 320 },
+
+
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
